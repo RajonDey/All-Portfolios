@@ -1,0 +1,205 @@
+
+
+#doctors-grid-page{
+	padding: 30px;
+}
+#doctors-grid-page #myTab{
+	width: 100%;
+	position: relative;
+}
+#doctors-grid-page #myTab li{
+
+}
+#doctors-grid-page .page-format{
+	position: absolute;
+	line-height: 60px;
+}
+#doctors-grid-page .page-format a i{
+	color: #999;
+	font-size: 18px;
+}
+#doctors-grid-page .page-format a i:hover{
+	color: #0196FD;
+}
+#doctors-grid-page .page-grid{
+	right: 28px;
+}
+#doctors-grid-page .page-list{
+	right: 0;
+}
+#doctors-grid-page .nav-tabs .nav-link{
+	color: #999;
+	padding: 20px;
+	position: relative;
+	text-transform: uppercase;
+}
+#doctors-grid-page .nav-tabs .nav-link::after {
+	display: block;
+	content: '';
+	border: 1px solid #C5C5C6;
+	border-width: 0 2px 2px 0px;
+	display: inline-block;
+	padding: 5px;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	position: absolute;
+	bottom: -6px;
+	left: 44%;
+	display: none;
+}
+#doctors-grid-page .nav-tabs .nav-item.show .nav-link, #doctors-grid-page .nav-tabs .nav-link.active {
+	color: #0196FD;
+	background-color: transparent;
+	border-color: transparent;
+}
+#doctors-grid-page .nav-tabs .nav-item.show .nav-link::after, #doctors-grid-page .nav-tabs .nav-link.active::after{
+	display: block;
+}
+#doctors-grid-page .nav-tabs .nav-link span{
+	background-color: #C5C5C6;
+	padding: 1px 8px;
+	border-radius: 10px;
+	color: #fff;
+}
+#doctors-grid-page .nav-tabs .nav-item.show .nav-link span, #doctors-grid-page .nav-tabs .nav-link.active span{
+	background-color: #0196FD;
+}
+#doctors-grid-page #myTabContent{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+
+
+.all-doctors {
+	background: #fff;
+	overflow: hidden;
+	clear: both;
+	padding: 20px;
+	box-shadow: 1px 3px 4px #ddd;
+}
+.all-doctors .single-doctor {
+	background: #fff;
+	margin: 0px 6px 10px;
+	box-shadow: 1px 3px 4px #ddd;
+	padding: 10px 6px;
+	text-align: center;
+	min-height: 160px;
+	width: 13%;
+	border: 1px solid #cccccc;
+	float: left;
+}
+.all-doctors .medical-doctors {
+	border:none;
+	min-height: 160px;
+}
+.all-doctors .medical-doctors button{
+	font-size: 11px;
+	text-transform: capitalize;
+	margin-top: 0px;
+}
+.all-doctors .medical-doctors button{}
+.all-doctors .single-doctor img {
+	width: 80%;
+	margin: 0 auto;
+	border: 4px solid #ddd;
+	border-radius: 50%;
+	margin-bottom: 14px;
+	min-height: 100px;
+}
+.all-doctors .medical-doctors img{
+	border: 5px solid #0296FA;	
+}
+
+.all-doctors .single-doctor .name {
+	text-transform: capitalize;
+	font-size: 14px;
+	color: #606060;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+.all-doctors .single-doctor .desg {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+.all-doctors button {
+	background: #fff;
+	border: 1px solid #0196FD;
+	color: #0196FD;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	margin: 16px 2px 0px;
+	font-size: 12px;
+	min-width: 60px;
+}
+.all-doctors button:hover{
+	background-color: #0196FD;
+	color: #fff;
+}
+
+
+.all-medicals {
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	margin-top: 30px;
+	padding: 0px;
+}
+.all-medicals .single-medical {
+	background: #fff;
+	margin: 0px 6px;
+	box-shadow: 1px 3px 4px #ddd;
+	padding: 10px;
+	text-align: center;
+	min-height: 160px;
+	width: 13%;
+	float: left;
+}
+.all-medicals .single-medical img {
+	width: 90%;
+	margin: 0 auto;
+	border: 4px solid #ddd;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	min-height: 120px;
+}
+
+.all-medicals .name {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #606060;
+	margin-bottom: 0px;
+}
+.all-medicals .location {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+.all-medicals .location i{
+	color: #0296FA;
+	margin-right: 4px;
+}
+.all-medicals button {
+	font-size: 11px;
+	min-width: 120px;
+	margin-top: 10px;
+	background-color: #0296FA;
+	color: #fff;
+}
+.all-medicals button:hover{
+	background-color: #fff;
+	color: #0296FA;
+}
+.all-medicals button i{
+	color: #fff;
+	border:1px solid #0296FA;
+	border-radius: 50%;
+}
+.all-medicals button:hover i{
+	color: #0296FA;
+	border:1px solid #0296FA;
+}

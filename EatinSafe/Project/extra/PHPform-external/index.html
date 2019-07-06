@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+<style>
+	body {background: #f7f7f7; font: 100%/1.375 georgia, serif;padding: 20px 40px;}
+	form div {margin-bottom: 10px;}
+	.content {width: 40%; margin: 0 auto;}
+	h1 {margin: 0 0 20px 0; font-size: 175%; font-family: calibri, arial, sans-serif;}
+	label {margin-bottom: 2px;}
+	input[type="text"], input[type="email"], textarea {font-size: 0.75em; width: 98%; font-family: arial; border: 1px solid #ebebeb; padding: 4px; display: block;}
+	input[type="radio"] {margin: 0 5px 0 0;}
+	textarea {overflow: auto;}
+	.hide {display: none;}
+</style>
+</head>
+
+<body>
+<div class="content">
+	<h1>Contact Us</h1>
+	<form method="post" action="process.php">
+		<div>
+			<label for="name">Name</label>
+			<input name="name" type="text" id="name" placeholder="your full name">
+		</div>
+		<div>
+			<label for="email">Email Address</label>
+			<input name="email" type="email" id="email" placeholder="your email address">
+		</div>
+		<div>
+			<label for="comm">Comments</label>
+			<textarea name="comments" rows="10" id="comm"></textarea>
+		</div>
+		<div class="hide">
+			<label for="spam">What is two plus two?</label>
+			<input name="spam" type="text" size="4" id="spam">
+		</div>
+		<div>
+			<input type="submit" name="submit" value="Send">
+		</div>
+	</form>
+</div>
+</body>
+</html>

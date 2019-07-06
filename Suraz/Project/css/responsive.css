@@ -1,0 +1,54 @@
+
+
+/*large desktop 2*/
+@media only screen and (min-width: 1400px) {
+	.wors_overlay {height: 255px;width: 360px;}
+
+
+}
+
+/* Mobile Layout: 320px. iPhone, iPod Touches, most modern devices*/
+@media only screen and (max-width: 767px) {
+	.container{width:300px;}
+	.for_center{text-align:center;}
+	#owl-demo .item h6 { width: 40%;}
+	.hr_size {width:100%;}
+	
+}	
+
+
+/* Wide Mobile Layout: 480px. iPhone, iPod Touches (landscape)*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.container{width:460px;}
+	.wors_overlay {height: 301px;width: 430px;}
+	.for_center{text-align:center;}
+	#owl-demo .item h6 { width: 40%;}
+	.hr_size {width:100%;}
+	
+}
+
+
+/*	This css for Tablet.  */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.container{width:750px;}
+	.wors_overlay {height: 242px;width: 346px;}
+	.for_center{text-align:center;}
+	#owl-demo .item h6 { width: 40%;}
+	.hr_size {width:100%;}
+}
+
+/* This css for Medium Devices */
+@media (min-width: 992px){
+	.container{width:950px;}
+	.wors_overlay {height: 204px;width: 290px;}
+
+	
+}
+
+/*	This css for Large Devices */
+@media only screen and (min-width: 1200px) {
+	.container{width:1170px;}
+	.wors_overlay {height: 255px;width: 360px;}
+	
+	
+}

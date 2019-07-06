@@ -1,0 +1,94 @@
+
+/*
+  ......................................................
+  	    Loja Page-1 CSS code for any standard theme     
+  ......................................................
+*/
+
+
+
+.portfolioiallitems .mix {
+	text-align: center;
+	border: 1px solid;
+	padding: 15px;
+	margin: 10px 0px;
+	width: 100%;
+	border-radius: 4px;
+	background: linear-gradient(#ffffff, #f8f8f8);
+
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 23%;
+	max-width: 23%;
+}
+.portfolioiallitems .mix:hover{
+	width: 120%;
+	box-shadow: 1px 1px 8px;
+	cursor: pointer;
+	transition: all 0.9s ease 0s;
+}
+.portfolioiallitems .mix:hover .section-subtitle{
+	color: #92BF04;
+	transition: all 0.9s ease 0s;
+}
+.portfolioiallitems .mix img {
+	width: 100%;
+	height: 220px;
+	margin-bottom: 10px;
+}
+.portfolioiallitems .mix .number{
+	color: #777777;
+	font-size: 12px;
+}
+.portfolioiallitems .mix button{
+	margin-top: 20px;
+}
+
+
+
+
+
+/*
+================================================================
+
+                   RESPONSIVE STYLING HERE
+
+================================================================
+*/
+
+
+@media (max-width: 575px) {
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+ 
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+ 
+
+}
+
+
+
+@media (min-width: 1200px) { 
+
+
+
+}

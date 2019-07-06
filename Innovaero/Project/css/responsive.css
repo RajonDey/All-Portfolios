@@ -1,0 +1,109 @@
+
+
+/*large desktop 2*/
+@media only screen and (min-width: 1400px) {
+	
+
+
+}
+
+
+
+@media only screen and (min-width: 992px){
+	h1 {
+	  font-size: 2.6rem;
+	  line-height: 3.5rem;
+	}
+	.paragraph h3 {
+	  font-size: 1.4rem;
+	  line-height: 1.7em;
+	  margin: 0;
+	}
+}
+/* Tablet Layout: 768px. iPads & other tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.search i {
+		right: 80px;
+	}
+	.process_step {
+	  background-position: 3.5% 60%;
+	}
+
+}
+/* Mobile Layout: 320px. iPhone, iPod Touches, most modern devices*/
+@media only screen and (max-width: 767px) {
+
+	h1 {
+	  font-size: 1.8rem;
+	  line-height: 2.5rem;
+	}
+	
+	
+	.paragraph h3 {
+	  font-size: 1.4rem;
+	  line-height: 1.7em;
+	  margin: 0;
+	}
+	h2 {
+	  font-size: 1.7rem;
+	}
+	.header-container {
+	  margin-top: 22%;
+	}
+	.form_area form textarea, .Mensajes form textarea {
+	  width: 68%;
+	}
+	.form_area form input[type="text"] {
+	  margin-left: 28%;
+	}
+	.form_area form button {
+	  margin: 10px 0 16px;
+	  width: 78%;
+	}
+	.inner_paragraph {
+	  width: 100%;
+	}
+	.gen_fac_btn {
+	  margin-left: 12%;
+	  width: 78%;
+	}
+	.process_step {
+	  background-position: 9.4% 60%;
+	}
+	
+}
+/* Wide Mobile Layout: 480px. iPhone, iPod Touches (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.paragraph h3 {
+	  font-size: 1.4rem;
+	  line-height: 1.7em;
+	  margin: 0;
+	}
+	.header-container {
+	  margin-top: 20%;
+	}
+	.form_area form textarea, .Mensajes form textarea {
+	  width: 70%;
+	}
+	.form_area form input[type="text"] {
+	  margin-left: 30%;
+	}
+	.form_area form button {
+	  margin: 10px 0 16px 50px;
+	  width: 52%;
+	}
+	.inner_paragraph {
+	  width: 100%;
+	}
+	.gen_fac_btn {
+	  margin-left: 12%;
+	  width: 78%;
+	}
+	.process_step {
+	  background-position:8% 60%;
+	}
+}
+/*large desktop 1*/
+@media only screen and (min-width: 1200px) {
+
+}

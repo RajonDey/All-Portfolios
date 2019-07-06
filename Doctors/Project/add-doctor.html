@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Title</title>
+    <meta name="description" content="Responsive website">
+    <meta name="keywords" content="responsive website">
+    <meta name="author" content="site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<!-- Fonts -->
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--end font awesome-->
+	
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/add-doctor.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	
+	<section id="main-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-1 side-nav">
+					<ul>
+						<li><a href=""><img src="img/side-ico.png"></a></li>
+						<li><a href="dashboard.html"><i class="fab fa-buromobelexperte"></i> Dashboard</a></li>
+						<li><a href="facility.html"><i class="far fa-hospital"></i> Facilities</a></li>
+						<li class="active"><a href="doctors.html"><i class="fas fa-user-md"></i> Doctors</a></li>
+					</ul>
+				</div><!-- End col-2 (side-nav) -->
+				<div class="col-11 main-body">
+					<header>
+						<div class="header-left">
+							<ul>
+								<li><p class="page-name">Doctors</p></li>
+								<li><a href=""><button class="header-button">Add Doctor</button></a></li>
+							</ul>
+						</div>
+						<div class="header-right">
+							<ul>
+								<li class="user-notification">
+									<a href="">
+										<i class="fas fa-bell"></i>
+										<div class="notify">4</div>
+										<i class="fas fa-caret-down"></i>
+									</a>
+								</li>
+								<li class="user-profile">
+									<a href="">
+										<p class="user-name">Kristy Jeferson <i class="fas fa-caret-down"></i></p>
+										<p class="user-designation">Manager</p>
+									</a>
+								</li>
+								<li class="user-picture">
+									<a href="">
+										<img src="img/user-icon.jpg" alt="IMG">
+									</a>
+								</li>								
+							</ul>
+						</div>
+					</header><!-- End Header -->
+
+					<section id="page-body">
+						<div class="left-side">
+							<div class="logo">
+								<img src="img/logo.png" alt="IMG">
+								<a href="">Update Logo</a>
+							</div>
+							<div class="name">
+								<p>DR. IBN AL-NAFIC</p>
+								<p>الدكتور ابن النفيس</p>
+							</div>
+							<div class="profile-completition">
+								<p>Completition 85%</p>
+								<div class="progress">
+								  	<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="activities-date">
+								<i><strong>Added:</strong> 12/10/2017</i>
+								<i><strong>Claimed:</strong> 22/02/2018</i>
+								<i><strong>Edited:</strong> 14/03/2018</i>
+							</div>
+							<div class="page-nav">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+									    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Basic Info</a>
+									  </li>
+									<li class="nav-item">
+										<a class="nav-link" id="Specialities-tab" data-toggle="tab" href="#Specialities" role="tab" aria-controls="Specialities" aria-selected="false">Medical School</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Insurance-tab" data-toggle="tab" href="#Insurance" role="tab" aria-controls="Insurance" aria-selected="false">Residency</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Amenities-tab" data-toggle="tab" href="#Amenities" role="tab" aria-controls="Amenities" aria-selected="false">Felowship</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Location-tab" data-toggle="tab" href="#Location" role="tab" aria-controls="Location" aria-selected="false">Experience</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Timing-tab" data-toggle="tab" href="#Timing" role="tab" aria-controls="Timing" aria-selected="false">Awards</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="tab-content sub-pages" id="myTabContent">
+							
+							<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+								<div class="main-side">
+									<div class="name-input box">
+										<div>
+											<label>Full Name <span>*</span></label>
+											<input type="text" name="" placeholder="DR. IBN AL-NAFIC">
+										</div>
+										<div class="arabic-input">
+											<label>الاسم الكامل*ل</label>
+											<input type="text" name="" placeholder="Input Arabic name">
+										</div>
+									</div>
+									<div class="gray-box box">
+										<label class="section-title">Facility <span>*</span></label>
+										<p class="sub-title">Pick all facilities this doctor works at</p>
+
+										<input class="input-half marg-right" type="text" name="" placeholder="Al Khayal Medical Center">
+										<button class="input-half tag-button tagPic-button">
+											<img src="img/profile-pic.png">
+											<div class="desc">
+												<p>Al Khayal Medical Center</p> 
+												<small>Dubai</small>
+											</div>
+											<i class="fas fa-times"></i>
+										</button>
+										<button class="input-half marg-right tag-button tagPic-button">
+											<img src="img/profile-pic.png">
+											<div class="desc">
+												<p>Al Khayal Medical Center</p> 
+												<small>Dubai</small>
+											</div>
+											<i class="fas fa-times"></i>
+										</button>
+										<button class="input-half tag-button tagPic-button">
+											<img src="img/profile-pic.png">
+											<div class="desc">
+												<p>Al Khayal Medical Center</p> 
+												<small>Dubai</small>
+											</div>
+											<i class="fas fa-times"></i>
+										</button>
+									</div>
+									<div class="gray-box box">
+										<label class="section-title">Speciality</label>
+										<select class="tag-button custom-select input-half marg-right">
+											<option>General Medicine</option>
+											<option>Internal Medicine</option>
+										</select>
+										<button class="tag-button input-half">General Medicine <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box button-box">
+										<label>Title <span>*</span></label>
+										<button class="color-btn">G.P</button>
+										<button class="normal-btn">Specialist</button>
+										<button class="normal-btn">Consultant</button>
+									</div>
+									<div class="gray-box box">
+										<label class="section-title">Condition</label>
+										<select class="tag-button custom-select input-half marg-right">
+											<option>General Medicine</option>
+											<option>Internal Medicine</option>
+										</select>
+										<button class="tag-button input-half">General Medicine <i class="fas fa-times"></i></button>
+									</div>
+									<div class="gray-box box">
+										<label class="section-title">Services</label>
+										<select class="tag-button custom-select input-half marg-right">
+											<option>General Medicine</option>
+											<option>Internal Medicine</option>
+										</select>
+										<button class="tag-button input-half">General Medicine <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box">
+										<label class="section-title">Consultation Fee</label>
+										<div class="select-input">
+											<select class="custom-select">
+												<option>Add</option>
+											</select>
+											<input type="text" name="" placeholder="500">
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side">
+									<div class="right-side-box marginBottom30">
+										<div class="box-title">
+											<strong>Personal</strong>
+										</div>
+										<div class="box">
+											<label>gender <span>*</span></label>
+											<button class="color-btn"><i class="fas fa-male"></i> Male</button>
+											<button class="normal-btn"><i class="fas fa-female"></i> Female</button>
+										</div>
+										<div class="box">
+											<label>Nationality <span>*</span></label>
+											<select class="custom-select">
+												<option>Egiptian</option>
+												<option>USA</option>
+												<option>Bangladeshi</option>
+											</select>
+											<div class="gray-box">
+												<label class="section-title">Nationality</label>
+												<button class="tag-button">Egiptian <i class="fas fa-times"></i></button>
+												<button class="tag-button">Indian <i class="fas fa-times"></i></button>
+											</div>
+										</div>
+										<div class="box button-box">
+											<label>Spoken Languages <span>*</span></label>
+											<div class="language-button">
+												<button class="color-btn">Arabic</button>
+												<button class="color-btn">English</button>
+												<button class="normal-btn">Persian</button>
+												<button class="normal-btn">Urdu</button>
+											</div>
+										</div>
+										<div class="box">
+											<label>Others</label>
+											<select class="custom-select">
+												<option>Greece</option>
+											</select>
+											<div class="gray-box">
+												<label class="section-title">Spoken Languages</label>
+												<button class="tag-button">Egiptian <i class="fas fa-times"></i></button>
+												<button class="tag-button">Indian <i class="fas fa-times"></i></button>
+												<button class="tag-button">Indian <i class="fas fa-times"></i></button>
+											</div>
+										</div>
+									</div>
+									<div class="right-side-box">
+										<div class="box-title">
+											<strong>Years of Experience</strong>
+										</div>
+										<div class="box"><input type="text" name="" placeholder="12"></div>
+										<div class="box">
+											<label>Short Bio</label>
+											<textarea placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."></textarea>
+										</div>
+										<div class="box arabic-input">
+											<label>سيرة الذاتية</label>
+											<textarea placeholder="التغذية سكان لكرة القدم حزينة عجوز و قبيح وآخرون  الجوع والفقر.  أبجد معرف  في الشوكولاته، ولا ألم. المحزن أكبر لاعبي كرة القدم في  في الواقع، لا فريوسوز وكان الأرض لينة في نهايات جتاح الأرض، العنصر،  وكان يعيش مضحك من البروتين وحده ميلان موليس من الجلوس امات  يتعين على اليابان استثمار وعاء بوليوود الجلوس امات  الاتحاد الأوروبي فريوس  هناك بعض بتوقيت شرق الولايات المتحدة الخوف، إيروس الذاتية في وادي قد يكون مجرد المنتجات الرئيسية. لكنه لم  أورسي. Laoreet العقاري الحالي الآن وأداء الاتحاد الأوروبي محفوظة Vulputate."></textarea>
+										</div>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Basic-Info Subpage -->
+
+							<div id="Specialities" class="tab-pane fade" role="tabpanel" aria-labelledby="Specialities-tab">
+								<div class="main-side">
+									<div class="box">
+										<label>Degree <span>*</span></label>
+										<div class="group-button flex">
+											<button class="normal-btn">MBBS/MBBSCh</button>
+											<button class="normal-btn">MD</button>
+											<button class="normal-btn">DO</button>
+											<button class="normal-btn">PHD</button>
+											<button class="color-btn">Other Degree</button>
+										</div>
+										<input class="input-half" type="text" name="" placeholder="Other Degrees">
+									</div>
+									<div class="gray-box box">
+										<label>Facility <span>*</span></label>
+										<input class="input-half marg-right" type="text" name="" placeholder="Galf Medical University">
+										<button class="tag-button input-half">Galf Medical University <i class="fas fa-times"></i></button>
+									</div>
+									<div class="gray-box box">
+										<label>Speciality <span>*</span></label>
+										<select class="custom-select input-half marg-right">
+											<option>General Medicine</option>
+										</select>
+										<button class="tag-button input-half">General Medicine <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box address-box">
+										<div class="input-half marg-right">
+											<label>City <span>*</span></label>
+											<select class="custom-select">
+												<option>Dubai</option>
+												<option>India</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>State</label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half marg-right">
+											<label>Country <span>*</span></label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>From-to <span>*</span></label>
+											<input type="date" name="" placeholder="15/02/2018 - currently">
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">School Snaps</label>
+									<div class="gray-box box side-gray-box">
+										<p class="head">Rak Medical and health sciences university </p>
+										<p class="degree">Degree: PHP</p>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+									<div class="gray-box box side-gray-box">
+										<p class="head">Rak Medical and health sciences university </p>
+										<p class="degree">Degree: PHP</p>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Specialities Subpage -->
+
+							<div class="tab-pane fade" id="Insurance" role="tabpanel" aria-labelledby="Insurance-tab">
+								<div class="main-side">
+									<label class="section-title">Speciality</label>
+									<div class="box">
+										<select class="custom-select input-half marg-right">
+											<option>Anesthesiology</option>
+											<option>Opthalmology</option>
+										</select>
+										<button class="tag-button input-half">Anesthesiology <i class="fas fa-times"></i></button>
+									</div>
+									<div class="gray-box box">
+										<label>Facility <span>*</span></label>
+										<input class="input-half marg-right" type="text" name="" placeholder="Galf Medical University">
+										<button class="tag-button input-half">Galf Medical University <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box address-box">
+										<div class="input-half marg-right">
+											<label>City <span>*</span></label>
+											<select class="custom-select">
+												<option>Dubai</option>
+												<option>India</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>State</label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half marg-right">
+											<label>Country <span>*</span></label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>From-to <span>*</span></label>
+											<input type="date" name="" placeholder="15/02/2018 - currently">
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">Residency Snaps</label>
+									<div class="gray-box box side-gray-box">
+										<p class="head">Rak Medical and health sciences university </p>
+										<p class="degree"><strong>Department:</strong> General Medicine</p>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Insurance Subpage -->
+
+							<div class="tab-pane fade" id="Amenities" role="tabpanel" aria-labelledby="Amenities-tab">
+								<div class="main-side">
+									<label class="section-title">Speciality</label>
+									<div class="box">
+										<select class="custom-select input-half marg-right">
+											<option>Anesthesiology</option>
+											<option>Opthalmology</option>
+										</select>
+										<button class="tag-button input-half">Anesthesiology <i class="fas fa-times"></i></button>
+									</div>
+									<div class="gray-box box">
+										<label>Facility <span>*</span></label>
+										<input class="input-half marg-right" type="text" name="" placeholder="Galf Medical University">
+										<button class="tag-button input-half">Galf Medical University <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box address-box">
+										<div class="input-half marg-right">
+											<label>City <span>*</span></label>
+											<select class="custom-select">
+												<option>Dubai</option>
+												<option>India</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>State</label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half marg-right">
+											<label>Country <span>*</span></label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>From-to <span>*</span></label>
+											<input type="date" name="" placeholder="15/02/2018 - currently">
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">Felowship Snaps</label>
+									<div class="gray-box box side-gray-box">
+										<p class="head">Rak Medical and health sciences university </p>
+										<p class="degree"><strong>Department:</strong> General Medicine</p>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Amenities Subpage -->
+
+							<div class="tab-pane fade" id="Location" role="tabpanel" aria-labelledby="Location-tab">
+								<div class="main-side">
+									<div class="box">
+										<label>Title <span>*</span></label>
+										<div class="group-button">
+											<button class="color-btn">G.P</button>
+											<button class="normal-btn">Specialist</button>
+											<button class="normal-btn">Consultant</button>
+										</div>
+									</div>
+									<div class="gray-box box">
+										<label>Speciality</label>
+										<select class="custom-select input-half marg-right">
+											<option>Anesthesiology</option>
+											<option>Opthalmology</option>
+										</select>
+										<button class="tag-button input-half">Anesthesiology <i class="fas fa-times"></i></button>
+									</div>
+									<div class="gray-box box">
+										<label>Facility <span>*</span></label>
+										<input class="input-half marg-right" type="text" name="" placeholder="Galf Medical University">
+										<button class="tag-button input-half">Galf Medical University <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box address-box">
+										<div class="input-half marg-right">
+											<label>City <span>*</span></label>
+											<select class="custom-select">
+												<option>Dubai</option>
+												<option>India</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>State</label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half marg-right">
+											<label>Country <span>*</span></label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>From-to <span>*</span></label>
+											<input type="date" name="" placeholder="15/02/2018 - currently">
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">Felowship Snaps</label>
+									<div class="gray-box box side-gray-box">
+										<div class="head">
+											<img src="img/profile-pic.png">
+											<p>Al Khayal Medical Center</p>
+											<small>Dubai</small>
+										</div> 
+										<div class="degree">
+											<p><strong>Speciality:</strong> General Medicine</p>
+											<p><strong>Title:</strong> G.P</p>
+										</div>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+									<div class="gray-box box side-gray-box">
+										<div class="head">
+											<img src="img/profile-pic.png">
+											<p>Al Khayal Medical Center</p>
+											<small>Dubai</small>
+										</div> 
+										<div class="degree">
+											<p><strong>Speciality:</strong> General Medicine</p>
+											<p><strong>Title:</strong> G.P</p>
+										</div>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+									<div class="gray-box box side-gray-box">
+										<div class="head">
+											<img src="img/profile-pic.png">
+											<p>Al Khayal Medical Center</p>
+											<small>Dubai</small>
+										</div> 
+										<div class="degree">
+											<p><strong>Speciality:</strong> General Medicine</p>
+											<p><strong>Title:</strong> G.P</p>
+										</div>
+										<p class="date">15/02/2018 - 20/05/2010</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+
+								</div><!-- End right-side -->
+							</div><!-- End Location Subpage -->
+
+							<div class="tab-pane fade" id="Timing" role="tabpanel" aria-labelledby="Timing-tab">
+								<div class="main-side">
+									<label class="section-title">Award</label>
+									<div class="box">
+										<input class="input-half marg-right" type="text" name="" placeholder="Award 1">
+										<button class="tag-button input-half">Award 1 <i class="fas fa-times"></i></button>
+									</div>
+									<div class="gray-box box">
+										<label>Awarding Organization</label>
+										<select class="custom-select input-half marg-right">
+											<option>Gulf Medical University</option>
+										</select>
+										<button class="tag-button input-half">Gulf Medical University <i class="fas fa-times"></i></button>
+									</div>
+									<div class="box address-box">
+										<div class="input-half marg-right">
+											<label>City <span>*</span></label>
+											<select class="custom-select">
+												<option>Dubai</option>
+												<option>India</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>State</label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half marg-right">
+											<label>Country <span>*</span></label>
+											<select class="custom-select">
+												<option>USA</option>
+												<option>UK</option>
+											</select>
+										</div>
+										<div class="input-half">
+											<label>Year <span>*</span></label>
+											<select class="custom-select input-half">
+												<option>2010</option>
+												<option>2011</option>
+												<option>2012</option>
+												<option>2013</option>
+												<option>2014</option>
+											</select>
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">Awards</label>
+									<div class="gray-box box side-gray-box">
+										<p class="head">Award 1 </p>
+										<p class="degree"><strong>Awarding Organization:</strong> Gulf Medical University</p>
+										<p class="date">2014</p>
+										<button class="edit-btn">Edit</button>
+										<i class="fas fa-times"></i>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Timing Subpage -->
+						
+						</div> <!-- End Sub-pages -->
+
+					</section><!-- End facility-page -->
+					<button class="save-btn color-btn">Save</button>
+				</div><!-- End col-10 (main-body) -->
+
+
+				<div class="comment-box"><a href=""><img src="img/cmnt-box.png" alt="Img"></a></div>
+			</div><!-- End row -->
+		</div><!-- End container -->
+	</section><!-- End main-wrapper section -->
+
+	
+
+    <!-- script here -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')
+    </script>
+	<script class="cssdeck" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/plugin.js"></script> 
+    <script src="js/main.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

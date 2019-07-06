@@ -1,0 +1,124 @@
+
+
+/*large desktop 2*/
+@media only screen and (min-width: 1400px) {
+
+.sm_mobile_img img{
+	display:none;
+}
+.for_mobile p{
+	display:none;
+}
+
+}
+
+
+
+@media only screen and (min-width: 992px){
+
+.sm_mobile_img img{
+	display:none;
+}
+.for_mobile p{
+	display:none;
+}
+
+}
+/* Tablet Layout: 768px. iPads & other tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.mobile_img{
+	top:5px;
+}
+.sm_mobile_img img {
+  display: block;
+  margin: 25px auto;
+  width: 60%;
+}
+.for_mobile p{
+	display:block;
+	text-align:center;
+}
+.socila_media {
+  text-align: center;
+}
+form {
+  margin-bottom: 120px;
+}
+.btn-submit {
+bottom: 120px;
+}
+
+}
+/* Mobile Layout: 320px. iPhone, iPod Touches, most modern devices*/
+@media only screen and (max-width: 767px) {
+.mobile_img{
+	top:5px;
+}
+.sm_mobile_img img {
+  display: block;
+  margin: 25px auto;
+  width: 50%;
+}
+.for_mobile p{
+	display:block;
+	text-align:center;
+}
+.btn-submit {
+	bottom: 0px;
+}
+.btn-submit {
+  font-size: 16px;
+  padding: 19px 15px;
+}
+.socila_media {
+  padding: 10px 0;
+  text-align: center;
+}
+form {
+  margin-bottom: 120px;
+}
+
+}
+/* Wide Mobile Layout: 480px. iPhone, iPod Touches (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.mobile_img{
+	top:5px;
+}
+.sm_mobile_img img {
+  display: block;
+  margin: 25px auto;
+  width: 60%;
+}
+.for_mobile p{
+	display:block;
+	text-align:center;
+}
+.btn-submit {
+	bottom: 0px;
+}
+.btn-submit {
+  font-size: 18px;
+  padding: 17px 40px;
+}
+.socila_media {
+  padding: 10px 0;
+  text-align: center;
+}
+form {
+  margin-bottom: 120px;
+}
+
+
+}
+/*large desktop 1*/
+@media only screen and (min-width: 1200px) {
+
+.sm_mobile_img img{
+	display:none;
+}
+.for_mobile p{
+	display:none;
+}
+
+}

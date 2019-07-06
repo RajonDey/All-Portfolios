@@ -1,0 +1,105 @@
+
+
+
+
+@media only screen and (min-width: 992px){
+	.search_btn{
+		padding: 7px 11px;
+	}
+	.form-inline .form-control {
+	  width:65%;
+	}
+
+
+}
+/* Tablet Layout: 768px. iPads & other tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.search_btn {
+	  padding: 7px 10px;
+	}
+	.form-inline .form-control {
+	  width:60%;
+	}
+	.navbar-default-edit {
+	  height: 135px;
+	}
+	.caption a{
+		font-size:14px;
+	}
+
+}
+/* Mobile Layout: 320px. iPhone, iPod Touches, most modern devices*/
+@media only screen and (max-width: 767px) {
+	.search_btn{
+		padding: 5px 11px;
+	}
+	.form-inline .form-control {
+	  width:100%;
+	}
+	.sign_in i {
+	  font-size: 16px;
+	  margin: 0 3px;
+	}
+	.form-inline {
+	  border: 1px solid #333;
+	  margin: -8px 0;
+	}
+	.caption a{
+		font-size:14px;
+	}
+	.footer_area{
+		text-align:center;
+	}
+	
+	
+}
+/* Wide Mobile Layout: 480px. iPhone, iPod Touches (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.search_btn{
+		padding: 5px 5px;
+	}
+	.form-inline .form-control {
+	  width:100%;
+	}
+	.sign_in i {
+	  font-size: 16px;
+	  margin: 0 3px;
+	}
+	.form-inline {
+	  border: 1px solid #333;
+	  margin: -8px 0;
+	}
+	.caption a{
+		font-size:14px;
+	}
+	.footer_area{
+		text-align:center;
+	}
+	
+}
+/*large desktop 1*/
+@media only screen and (min-width: 1200px) {
+	.search_btn{
+		padding: 7px 11px;
+	}
+	.form-inline .form-control {
+	  width:70%;
+	}
+	
+	
+}
+
+/*large desktop 2*/
+@media only screen and (min-width: 1400px) {
+
+	.search_btn{
+		padding: 7px 10px;
+	}
+	.form-inline .form-control {
+	  width:75%;
+	}
+	
+	
+	
+}
+

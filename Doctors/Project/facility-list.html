@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Title</title>
+    <meta name="description" content="Responsive website">
+    <meta name="keywords" content="responsive website">
+    <meta name="author" content="site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<!-- Fonts -->
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--end font awesome-->
+	
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/facility-list.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	
+	<section id="main-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-1 side-nav">
+					<ul>
+						<li><a href=""><img src="img/side-ico.png"></a></li>
+						<li><a href="dashboard.html"><i class="fab fa-buromobelexperte"></i> Dashboard</a></li>
+						<li class="active"><a href=""><i class="far fa-hospital"></i> Facilities</a></li>
+						<li><a href=""><i class="fas fa-user-md"></i> Doctors</a></li>
+					</ul>
+				</div><!-- End col-2 (side-nav) -->
+				<div class="col-11 main-body">
+					<header>
+						<div class="header-left">
+							<ul>
+								<li><p class="page-name">Facilities</p></li>
+								<li><a href="add-facility.html"><button class="header-button">Add Facility</button></a></li>
+							</ul>
+						</div>
+						<div class="header-right">
+							<ul>
+								<li class="user-notification">
+									<a href="">
+										<i class="fas fa-bell"></i>
+										<div class="notify">4</div>
+										<i class="fas fa-caret-down"></i>
+									</a>
+								</li>
+								<li class="user-profile">
+									<a href="">
+										<p class="user-name">Kristy Jeferson <i class="fas fa-caret-down"></i></p>
+										<p class="user-designation">Manager</p>
+									</a>
+								</li>
+								<li class="user-picture">
+									<a href="">
+										<img src="img/user-icon.jpg" alt="IMG">
+									</a>
+								</li>								
+							</ul>
+						</div>
+					</header><!-- End Header -->
+
+					<section id="facility-list-page">
+						
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+							    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Public <span>14</span></a>
+							</li>
+							<li class="nav-item">
+							    <a class="nav-link" id="pendApproval-tab" data-toggle="tab" href="#pendApproval" role="tab" aria-controls="pendApproval" aria-selected="false">Pending Approval <span>2</span></a>
+							</li>
+							<li class="nav-item">
+							    <a class="nav-link" id="rqstModi-tab" data-toggle="tab" href="#rqstModi" role="tab" aria-controls="rqstModi" aria-selected="false">Request Modification</a>
+							</li>
+							<li class="nav-item">
+							    <a class="nav-link" id="draft-tab" data-toggle="tab" href="#draft" role="tab" aria-controls="draft" aria-selected="false">Draft</a>
+							</li>
+							<li class="nav-item">
+							    <a class="nav-link" id="rejected-tab" data-toggle="tab" href="#rejected" role="tab" aria-controls="rejected" aria-selected="false">Rejected</a>
+							</li>
+
+							<li class="page-format page-grid"><a href="facility.html"><i class="fas fa-th"></i></a></li>
+							<li class="page-format page-list"><a href="facility-list.html"><i class="fas fa-list"></i></a></li>
+						</ul>
+						<div class="tab-content" id="myTabContent">
+						  	<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						  		<div class="table-responsive">
+						  			<div class="settings">
+						  				<a href="#" onclick="clickFunction()"><i class="fas fa-cog"></i></a>
+						  				<div id="settingsDIV">
+										  	<a href=""><input type="checkbox" name=""> Area</a>
+										  	<a href=""><input type="checkbox" name=""> Views</a>
+										  	<a href=""><input type="checkbox" name=""> Favorite</a>
+										  	<a href=""><input type="checkbox" name=""> Share</a>
+										  	<a href=""><input type="checkbox" name=""> Call</a>
+										</div>
+						  			</div>
+						  			<table class="table table-striped">
+						  				<thead>
+						  					<tr>
+						  						<th><input type="checkbox" name=""></th>
+						  						<th>Facilities</th>
+						  						<th>Area <i class="fas fa-caret-down"></i></th>
+						  						<th>Type <i class="fas fa-caret-down"></i></th>
+						  						<th>Completition <i class="fas fa-caret-down"></i></th>
+						  						<th>Views <i class="fas fa-caret-down"></i></th>
+						  						<th>Favorite <i class="fas fa-caret-down"></i></th>
+						  						<th>Share <i class="fas fa-caret-down"></i></th>
+						  						<th>Call <i class="fas fa-caret-down"></i></th>
+						  						<th></th>
+						  					</tr>
+						  				</thead>
+						  				<tbody>
+						  					<tr>
+						  						<td><input type="checkbox" name=""></td>
+						  						<td class="addres">
+						  							<img src="img/logo.png" alt="Img">
+						  							<p>AL Khayal Medical Center</p>
+						  						</td>
+						  						<td>Dubai Healthcare Center</td>
+						  						<td>Clinic</td>
+						  						<td class=""><span class="green signal"></span> 96%</td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td><button>Edit</button></td>
+						  					</tr>
+						  					<tr>
+						  						<td><input type="checkbox" name=""></td>
+						  						<td class="addres">
+						  							<img src="img/logo.png" alt="Img">
+						  							<p>AL Khayal Medical Center</p>
+						  						</td>
+						  						<td>Dubai Healthcare Center</td>
+						  						<td>Clinic</td>
+						  						<td class=""><span class="red signal"></span> 96%</td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td><button>Edit</button></td>
+						  					</tr>
+						  					<tr>
+						  						<td><input type="checkbox" name=""></td>
+						  						<td class="addres">
+						  							<img src="img/logo.png" alt="Img">
+						  							<p>AL Khayal Medical Center</p>
+						  						</td>
+						  						<td>Dubai Healthcare Center</td>
+						  						<td>Clinic</td>
+						  						<td class=""><span class="yeolow signal"></span> 96%</td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td><button>Edit</button></td>
+						  					</tr>
+						  					<tr>
+						  						<td><input type="checkbox" name=""></td>
+						  						<td class="addres">
+						  							<img src="img/logo.png" alt="Img">
+						  							<p>AL Khayal Medical Center</p>
+						  						</td>
+						  						<td>Dubai Healthcare Center</td>
+						  						<td>Clinic</td>
+						  						<td class=""><span class="green signal"></span> 96%</td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td><button>Edit</button></td>
+						  					</tr>
+						  					<tr>
+						  						<td><input type="checkbox" name=""></td>
+						  						<td class="addres">
+						  							<img src="img/logo.png" alt="Img">
+						  							<p>AL Khayal Medical Center</p>
+						  						</td>
+						  						<td>Dubai Healthcare Center</td>
+						  						<td>Clinic</td>
+						  						<td class=""><span class="red signal"></span> 96%</td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td><button>Edit</button></td>
+						  					</tr>
+						  					<tr>
+						  						<td><input type="checkbox" name=""></td>
+						  						<td class="addres">
+						  							<img src="img/logo.png" alt="Img">
+						  							<p>AL Khayal Medical Center</p>
+						  						</td>
+						  						<td>Dubai Healthcare Center</td>
+						  						<td>Clinic</td>
+						  						<td class=""><span class="yeolow signal"></span> 96%</td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-green">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td class="view-red">4564 <i class="fas fa-long-arrow-alt-down"></i></td>
+						  						<td><button>Edit</button></td>
+						  					</tr>
+						  				</tbody>
+						  			</table>
+						  		</div>
+						 	</div>
+						  	<div class="tab-pane fade" id="pendApproval" role="tabpanel" aria-labelledby="pendApproval-tab">
+						  		<p>This Tab for Pending Approval</p>
+						  	</div>
+						  	<div class="tab-pane fade" id="rqstModi" role="tabpanel" aria-labelledby="rqstModi-tab">
+						  		<p>This Tab for Request Modification</p>
+						  	</div>
+						  	<div class="tab-pane fade" id="draft" role="tabpanel" aria-labelledby="draft-tab">
+						  		<p>This Tab for Draft Section</p>
+						  	</div>
+						  	<div class="tab-pane fade" id="rejected" role="tabpanel" aria-labelledby="rejected-tab">
+						  		<p>This Tab for Rejected Section</p>
+						  	</div>
+						</div>
+
+					</section><!-- End facility-page -->
+				</div><!-- End col-10 (main-body) -->
+
+			</div><!-- End row -->
+		</div><!-- End container -->
+	</section><!-- End main-wrapper section -->
+
+	
+
+    <!-- script here -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')
+    </script>
+	<script class="cssdeck" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/plugin.js"></script> 
+    <script src="js/main.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

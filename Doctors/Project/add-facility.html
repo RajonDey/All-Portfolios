@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Title</title>
+    <meta name="description" content="Responsive website">
+    <meta name="keywords" content="responsive website">
+    <meta name="author" content="site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<!-- Fonts -->
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--end font awesome-->
+	
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/add-facility.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	
+	<section id="main-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-1 side-nav">
+					<ul>
+						<li><a href=""><img src="img/side-ico.png"></a></li>
+						<li><a href="dashboard.html"><i class="fab fa-buromobelexperte"></i> Dashboard</a></li>
+						<li class="active"><a href="facility.html"><i class="far fa-hospital"></i> Facilities</a></li>
+						<li><a href="doctors.html"><i class="fas fa-user-md"></i> Doctors</a></li>
+					</ul>
+				</div><!-- End col-2 (side-nav) -->
+				<div class="col-11 main-body">
+					<header>
+						<div class="header-left">
+							<ul>
+								<li><p class="page-name">Facilities</p></li>
+								<li><button class="header-button">Add Facility</button></li>
+							</ul>
+						</div>
+						<div class="header-right">
+							<ul>
+								<li class="user-notification">
+									<a href="">
+										<i class="fas fa-bell"></i>
+										<div class="notify">4</div>
+										<i class="fas fa-caret-down"></i>
+									</a>
+								</li>
+								<li class="user-profile">
+									<a href="">
+										<p class="user-name">Kristy Jeferson <i class="fas fa-caret-down"></i></p>
+										<p class="user-designation">Manager</p>
+									</a>
+								</li>
+								<li class="user-picture">
+									<a href="">
+										<img src="img/user-icon.jpg" alt="IMG">
+									</a>
+								</li>								
+							</ul>
+						</div>
+					</header><!-- End Header -->
+
+					<section id="facility-page">
+						<div class="left-side">
+							<div class="logo">
+								<img src="img/logo.png" alt="IMG">
+								<a href="">Update Logo</a>
+							</div>
+							<div class="profile-completition">
+								<p>Completition 85%</p>
+								<div class="progress">
+								  	<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="activities-date">
+								<i><strong>Added:</strong> 12/10/2017</i>
+								<i><strong>Claimed:</strong> 22/02/2018</i>
+								<i><strong>Edited:</strong> 14/03/2018</i>
+							</div>
+							<div class="page-nav">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+									    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Basic Info</a>
+									  </li>
+									<li class="nav-item">
+										<a class="nav-link" id="Specialities-tab" data-toggle="tab" href="#Specialities" role="tab" aria-controls="Specialities" aria-selected="false">Specialities</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Insurance-tab" data-toggle="tab" href="#Insurance" role="tab" aria-controls="Insurance" aria-selected="false">Insurance</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Amenities-tab" data-toggle="tab" href="#Amenities" role="tab" aria-controls="Amenities" aria-selected="false">Amenities</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Location-tab" data-toggle="tab" href="#Location" role="tab" aria-controls="Location" aria-selected="false">Location</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="Timing-tab" data-toggle="tab" href="#Timing" role="tab" aria-controls="Timing" aria-selected="false">Timing</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="tab-content sub-pages" id="myTabContent">
+							
+							<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+								<div class="main-side">
+									<div class="name-input">
+										<div>
+											<label>Facility Name <span>*</span></label>
+											<input type="text" name="" placeholder="AL KHAYAL MEDICAL CENTRE">
+										</div>
+										<div class="arabic-input">
+											<label>الاسم الكامل*ل</label>
+											<input type="text" name="" placeholder="Input Arabic name">
+										</div>
+									</div>
+									<div class="desc-input arabic-input">
+										<label>* نبذة</label>
+										<textarea cols="6" placeholder="لتغذية سكان لكرة القدم حزينة عجوز و قبيح وآخرون  الجوع والفقر.  أبجد معرف  في الشوكولاته، ولا ألم. المحزن أكبر لاعبي كرة القدم في  في الواقع، لا فريوسوز وكان الأرض لينة في نهايات جتاح الأرض، العنصر،  وكان يعيش مضحك من البروتين وحده ميلان موليس من الجلوس امات  يتعين على اليابان استثمار وعاء بوليوود الجلوس امات  الاتحاد الأوروبي فريوس  هناك بعض بتوقيت شرق الولايات المتحدة الخوف، إيروس الذاتية في واديلتغذية سكان لكرة القدم حزينة عجوز و قبيح وآخرون  الجوع والفقر.  أبجد معرف  في الشوكولاته، ولا ألم. المحزن أكبر لاعبي كرة القدم في  في الواقع، لا فريوسوز وكان الأرض لينة في نهايات جتاح الأرض، العنصر،  وكان يعيش مضحك من البروتين وحده ميلان موليس من الجلوس امات  يتعين على اليابان استثمار وعاء بوليوود الجلوس امات  الاتحاد الأوروبي فريوس  هناك بعض بتوقيت شرق الولايات المتحدة الخوف، إيروس الذاتية في وادي"></textarea>
+									</div>
+									<div class="desc-input">
+										<label>Description <span>*</span></label>
+										<textarea cols="6" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></textarea>
+									</div>
+
+									<div class="img-input">
+										<a href=""><input type="checkbox" name=""> Select All</a>
+										<div class="images">
+											<div class="single-img">
+												<input type="checkbox" name="">
+												<img src="img/image.jpg">
+											</div>
+											<div class="single-img">
+												<input type="checkbox" name="">
+												<img src="img/image.jpg">
+											</div>
+											<div class="single-img">
+												<input type="checkbox" name="">
+												<img src="img/image.jpg">
+											</div>
+											<div class="single-img">
+												<input type="checkbox" name="">
+												<img src="img/image.jpg">
+											</div>
+										</div>
+									</div>
+									<div class="button-section marginTop30">
+										<div class="left-button">
+											<button class="normal-btn">Delete</button>
+											<button class="color-btn">Proceed</button>
+										</div>
+										<div class="right-button">
+											<button class="upload-btn">Upload Images <i class="fas fa-file"></i></button>
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side">
+									<div class="fees-box right-side-box">
+										<div class="box-title">
+											<strong>Fees</strong>
+										</div>
+										<div class="single-fee">
+											<label>General Practitioner</label>
+											<span>
+												<select>
+													<option>AED</option>
+												</select>
+												<input type="text" name="" placeholder="250">
+											</span>
+										</div>
+										<div class="single-fee">
+											<label>Consultation</label>
+											<span>
+												<select>
+													<option>AED</option>
+												</select>
+												<input type="text" name="" placeholder="200">
+											</span>
+										</div>
+										<div class="single-fee">
+											<label>Specialist</label>
+											<span>
+												<select>
+													<option>AED</option>
+												</select>
+												<input type="text" name="" placeholder="400">
+											</span>
+										</div>
+
+									</div>
+									<div class="admin-box right-side-box">
+										<div class="box-title">
+											<strong>Admin Info</strong>
+											<p class="sub-title">This info is not visible in the facility public profile</p>
+										</div>
+
+										<div class="name-input">
+											<label>Admin Name</label>
+											<input type="text" name="" placeholder="Name Surname">
+										</div>
+										<div class="position-input">
+											<label>Position</label>
+											<input type="text" name="" placeholder="Position">
+										</div>
+										<div class="contact-input">
+											<label>Contact Number "Mobile"</label>
+											<span>
+												<select>
+													<option>862</option>
+												</select>
+												<input type="text" name="" placeholder="456 84 12">
+											</span>
+											<button class="color-btn">Verify Number</button>
+										</div>
+
+										<div class="upload-input">
+											<label>Upload Facility Varification Document</label>
+											<button class="upload-btn">Upload Document <i class="fas fa-file"></i></button>
+										</div>
+
+										<div class="box-footer">
+											<p><i class="far fa-check-square"></i> I am interested in advertising in Thrive Network</p>
+										</div>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Basic-Info Subpage -->
+
+							<div id="Specialities" class="tab-pane fade" role="tabpanel" aria-labelledby="Specialities-tab">
+								<div class="main-side">
+									<div class="specialities-list section">
+										<label class="section-title">Common Specialities</label>
+										<div class="single-specialist active">
+											<a href=""><img src="img/specialist1.png"> <p>General Practitioner</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist2.png"> <p>Orthopedic</p></a>
+										</div>
+										<div class="single-specialist active">
+											<a href=""><img src="img/specialist3.png"> <p>Pediatric</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist4.png"> <p>Dermatology</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist5.png"> <p>Family Doctor</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist6.png"> <p>Obs and Gyno</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist7.png"> <p>Internal Medicine</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist5.png"> <p>Endoctrinology</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist8.png"> <p>Plastic Surgery</p></a>
+										</div>
+										<div class="single-specialist">
+											<a href=""><img src="img/specialist9.png"> <p>General Dentistry</p></a>
+										</div>
+									</div>
+									<div class="find-specialities">
+										<label class="section-title">Find Specialities</label>
+										<input class="search-input" type="search" name="" placeholder="Type Speciality Name">
+										<div class="seleted-specialities gray-box">
+											<label class="section-title">Selected Specialities</label>
+											<button class="tag-button">Dermatology <i class="fas fa-times"></i></button>
+											<button class="tag-button">Obstetrics & Gynecology <i class="fas fa-times"></i></button>
+											<button class="tag-button">Physical Therapy <i class="fas fa-times"></i></button>
+											<button class="tag-button">Urology <i class="fas fa-times"></i></button>
+										</div>
+										<div class="waiting-approval gray-box">
+											<label class="section-title">Waiting Approval</label>
+											<p class="sub-title">Your amenity eill be added to your facility as soon as site administration approve it.</p>
+											<button class="tag-button tag-btn-gray">Brain Surgery <i class="fas fa-times"></i></button>
+										</div>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">Your Specialities</label>
+									<div class="your-specialist accordion" id="accordionExample">
+									  	
+									  	<div class="single-specialist card">
+										    <div class="card-header" id="headingOne">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										          <img src="img/specialist-icon.png"> Dermatology <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+
+										    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+											    <div class="doctor-list card-body">
+											        <div class="single-doctor">
+														<img src="img/logo.png"><p>Marry Donavan</p>
+													</div>
+													<div class="single-doctor">
+														<img src="img/logo.png"><p>Dr. Janovan</p>
+													</div>
+													<div class="single-doctor">
+														<img src="img/logo.png"><p>Marry Donavan</p>
+													</div>
+													<div class="single-doctor">
+														<img src="img/logo.png"><p>Dr. Janovan</p>
+													</div>
+											    </div>
+										    </div>
+										</div>
+									  	<div class="single-specialist card">
+										    <div class="card-header" id="headingTwo">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										          <img src="img/specialist-icon.png"> Allergy & Immunology <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+										    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+										      	<div class="doctor-list card-body">
+											        <div class="single-doctor">
+														<img src="img/logo.png"><p>Marry Donavan</p>
+													</div>
+													<div class="single-doctor">
+														<img src="img/logo.png"><p>Dr. Janovan</p>
+													</div>
+											    </div>
+										    </div>
+									  	</div>
+									 	<div class="single-specialist card">
+										    <div class="card-header" id="headingThree">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										          <img src="img/specialist-icon.png"> Allergy & Immunology <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+										    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+										      	<div class="doctor-list card-body">
+											        <div class="single-doctor">
+														<img src="img/logo.png"><p>Marry Donavan</p>
+													</div>
+													<div class="single-doctor">
+														<img src="img/logo.png"><p>Dr. Janovan</p>
+													</div>
+											    </div>
+										    </div>
+									  	</div>
+									 	<div class="single-specialist card">
+										    <div class="card-header" id="headingFour">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										          <img src="img/specialist-icon.png"> Allergy & Immunology <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+										    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+										      	<div class="doctor-list card-body">
+											        <div class="single-doctor">
+														<img src="img/logo.png"><p>Marry Donavan</p>
+													</div>
+													<div class="single-doctor">
+														<img src="img/logo.png"><p>Dr. Janovan</p>
+													</div>
+											    </div>
+										    </div>
+									  	</div>
+									</div>
+
+								</div><!-- End right-side -->
+							</div><!-- End Specialities Subpage -->
+
+							<div class="tab-pane fade" id="Insurance" role="tabpanel" aria-labelledby="Insurance-tab">
+								<div class="main-side">
+									<label class="section-title">Add Insurance</label>
+									<input class="search-input" type="text" name="" placeholder="AETNA">
+									<div class="seleted-insurance gray-box section">
+										<div class="single-insurance">
+											<div class="insurance-title">ADNIC <i class="fas fa-times"></i></div>
+											<div class="insurance-list">
+												<li><img src="img/right-icon.png" alt="Img"> Network 1</li>
+												<li><img src="img/right-icon.png" alt="Img"> Network 2</li>
+												<li><img src="img/right-icon.png" alt="Img"> Network 3</li>
+												<button class="add-button plus-btn">Add Network <i class="fas fa-plus-circle"></i></button>
+											</div>
+										</div>
+										<div class="single-insurance">
+											<div class="insurance-title">Other Insurance <i class="fas fa-times"></i></div>
+											<div class="insurance-list">
+												<li><img src="img/right-icon.png" alt="Img"> Network 1</li>
+												<li><img src="img/right-icon.png" alt="Img"> Network 2</li>
+												<li><img src="img/right-icon.png" alt="Img"> Network 3</li>
+												<li><img src="img/right-icon.png" alt="Img"> Network 4</li>
+												<button class="add-button plus-btn">Add Network <i class="fas fa-plus-circle"></i></button>
+											</div>
+										</div>
+										<div class="single-insurance">
+											<div class="insurance-title">AETNA <i class="fas fa-times"></i></div>
+											<div class="insurance-list">
+												<li><img src="img/right-icon.png" alt="Img"> Network 1</li>
+												<li><img src="img/right-icon.png" alt="Img"> Network 2</li>
+												<button class="add-button plus-btn">Add Network <i class="fas fa-plus-circle"></i></button>
+											</div>
+										</div>
+										<div class="single-insurance">
+											<div class="insurance-title">AETNA <i class="fas fa-times"></i></div>
+											<div class="insurance-list">
+												<li><img src="img/right-icon.png" alt="Img"> Network 1</li>
+												<button class="add-button plus-btn">Add Network <i class="fas fa-plus-circle"></i></button>
+											</div>
+										</div>
+									</div>
+									<div class="waiting-approval gray-box section">
+										<label class="section-title">Waiting Approval</label>
+										<p>Your amenity eill be added to your facility as soon as site administration approve it.</p>
+										<button class="tag-button tag-btn-gray marginTop30">NAIRI <i class="fas fa-times"></i></button>
+									</div>
+								</div><!-- End main-side -->
+								<div class="right-side right-side-box">
+									<label class="section-title">Your Insurance</label>
+									<div class="your-insurance accordion" id="accordionExample">
+									  	
+									  	<div class="single-specialist card">
+										    <div class="card-header" id="heading1">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+										          <img src="img/right-icon.png"> AAFIYA <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+
+										    <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+											    <div class="insurance-list card-body section">
+											        <a href=""><i class="far fa-check-square"></i> Network 1</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 2</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 3</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 4</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 5</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 6</a>
+											    </div>
+										    </div>
+										</div>
+									  	<div class="single-specialist card">
+										    <div class="card-header" id="heading2">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+										          <img src="img/right-icon.png"> ADNIC <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										      </h5>
+										    </div>
+										    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+										      	<div class="insurance-list card-body section">
+											        <a href=""><i class="far fa-check-square"></i> Network 1</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 2</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 3</a>
+											    </div>
+										    </div>
+									  	</div>
+									 	<div class="single-specialist card">
+										    <div class="card-header" id="heading3">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+										            <img src="img/right-icon.png"> AETNA <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+										    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+										      	<div class="insurance-list card-body section">
+											        <a href=""><i class="far fa-check-square"></i> Network 1</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 2</a>
+											    </div>
+										    </div>
+									  	</div>
+									 	<div class="single-specialist card">
+										    <div class="card-header" id="heading4">
+										      <h5 class="mb-0">
+										        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+										          <img src="img/right-icon.png"> Allianz <span class="card-sideicon"><i class="fas fa-ellipsis-v"></i></span>
+										        </button>
+										      </h5>
+										    </div>
+										    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+										      	<div class="insurance-list card-body">
+											        <a href=""><i class="far fa-check-square"></i> Network 1</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 2</a>
+											        <a href=""><i class="far fa-check-square"></i> Network 3</a>
+											    </div>
+										    </div>
+									  	</div>
+									</div>
+								</div><!-- End right-side -->
+							</div><!-- End Insurance Subpage -->
+
+							<div class="tab-pane fade" id="Amenities" role="tabpanel" aria-labelledby="Amenities-tab">
+								<div class="main-side">
+									<label class="section-title">Add Amenities</label>
+									<input class="search-input" type="text" name="" placeholder="Coffee Machine">
+									<div class="seleted-amenities gray-box section">
+										<label class="section-title">Seleted Amenities</label>
+										<div class="single-amenities marginTop30">
+											<button class="tag-button">Coffe Machine <i class="fas fa-times"></i></button>
+											<button class="tag-button">Wi-Fi <i class="fas fa-times"></i></button>
+											<button class="tag-button">Parking <i class="fas fa-times"></i></button>
+										</div>
+									</div>
+									<div class="waiting-approval gray-box section">
+										<label class="section-title">Waiting Approval</label>
+										<p>Your amenity eill be added to your facility as soon as site administration approve it.</p>
+										<button class="tag-button tag-btn-gray marginTop30">Cafetery <i class="fas fa-times"></i></button>
+									</div>
+								</div><!-- End main-side -->
+							</div><!-- End Amenities Subpage -->
+
+							<div class="tab-pane fade" id="Location" role="tabpanel" aria-labelledby="Location-tab">
+								<div class="main-side">
+									<div class="top-location section">
+										<div class="single-method">
+											<label class="section-title">Landline Work Number <span>*</span></label>
+											<form>
+												<select>
+													<option>UAE 971</option>
+													<option>UAE 972</option>
+												</select>
+												<select>
+													<option>04</option>
+													<option>05</option>
+												</select>
+												<input type="text" name="" placeholder="552351">
+											</form>
+										</div>
+										<div class="single-method">
+											<label class="section-title">Toll Free Number</label>
+											<form>
+												<select>
+													<option>971 (UAE)</option>
+													<option>972 (UAE)</option>
+												</select>
+												<select>
+													<option>800</option>
+													<option>801</option>
+												</select>
+												<input type="text" name="" placeholder="456 656">
+											</form>
+										</div>
+										<div class="single-method">
+											<label class="section-title">Facility E-mail <span>*</span></label>
+											<form>
+												<input type="email" name="" placeholder="enquiry@able.ae">
+											</form>
+										</div>
+									</div>
+									<div class="location-details">
+										<label class="section-title">Location</label>
+										<small class="sub-title">Use search bar, auto locator or manual placement of the pin to update the below fields and save the exact location coordinates.</small>
+										<div class="map">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d57901.48163402705!2d91.86818935537107!3d24.90334994989979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1525293862494" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+										</div>
+										<div class="single-location">
+											<label class="section-title">Country <span>*</span></label>
+											<input type="text" name="" placeholder="United Arab Emirates">
+										</div>
+										<div class="single-location">
+											<label class="section-title">City <span>*</span></label>
+											<input type="text" name="" placeholder="Dubai">
+										</div>
+										<div class="single-location">
+											<label class="section-title">Area</label>
+											<input type="text" name="" placeholder="Bur Dubai">
+										</div>
+										<div class="single-location">
+											<label class="section-title">Street</label>
+											<input type="text" name="" placeholder="14th Street 10">
+										</div>
+										<div class="single-location">
+											<label class="section-title">Building <span>*</span></label>
+											<input type="text" name="" placeholder="Buldn 33, 2nd Floor">
+										</div>
+										<div class="single-location">
+											<label class="section-title">P.O.Box Number</label>
+											<input type="text" name="">
+										</div>
+
+									</div>
+								</div><!-- End main-side -->
+							</div><!-- End Location Subpage -->
+
+							<div class="tab-pane fade" id="Timing" role="tabpanel" aria-labelledby="Timing-tab">
+								<div class="main-side">
+									<label class="section-title">Opening Days</label>
+									<small class="sub-title">Non selected days will be considered off-days</small>
+									<div class="all-days">
+										<button class="color-button">Sat</button>
+										<button class="color-button">Sun</button>
+										<button class="color-button">Mon</button>
+										<button class="border-button">Tue</button>
+										<button class="border-button">Wed</button>
+										<button>Thu</button>
+										<button>Fri</button>
+									</div>
+									<div class="hours section">
+										<div class="hours-limit">
+											<button class="left-button">24 Hours</button>
+											<button class="right-button">Custom</button>
+										</div>
+										<div class="from-to">
+											<div class="from">
+												<label>From <span>*</span></label>
+												<input type="text" name="" placeholder="Select Time">
+											</div>
+											<div class="to">
+												<label>To <span>*</span></label>
+												<input type="text" name="" placeholder="Select Time">
+											</div>
+											<button>Set</button>
+										</div>
+										<div class="split-shift">
+											<label>For 2 shifts, please click "Split Shift"</label>
+											<button class="upload-btn plus-btn">Split Shift <i class="fas fa-plus-circle"></i></button>
+										</div>
+									</div>
+									<div class="opening-hour gray-box section marginTop30">
+										<label class="section-title">Opening Hours</label>
+										<div class="table-responsive">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td>Sat</td>
+														<td>Full Day</td>
+														<td>Full Day</td>
+													</tr>
+													<tr>
+														<td>Sun</td>
+														<td>8:30am to 2:30pm</td>
+														<td>3:30am to 9:30pm</td>
+													</tr>
+													<tr>
+														<td>Mon</td>
+														<td>8:30am to 2:30pm</td>
+														<td>3:30am to 9:30pm</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<button class="color-btn">Update Timing</button>
+								</div><!-- End main-side -->
+							</div><!-- End Timing Subpage -->
+						
+						</div> <!-- End Sub-pages -->
+
+					</section><!-- End facility-page -->
+					<button class="save-btn color-btn">Save</button>
+				</div><!-- End col-10 (main-body) -->
+
+
+				<div class="comment-box"><a href=""><img src="img/cmnt-box.png" alt="Img"></a></div>
+			</div><!-- End row -->
+		</div><!-- End container -->
+	</section><!-- End main-wrapper section -->
+
+	
+
+    <!-- script here -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')
+    </script>
+	<script class="cssdeck" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/plugin.js"></script> 
+    <script src="js/main.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

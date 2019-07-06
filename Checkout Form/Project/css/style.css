@@ -1,0 +1,475 @@
+/*
+Theme Name: Checkout Form
+Author: rajjohin
+Author URI: https://www.fiverr.com/rajjohin
+*/
+
+
+/*
+  ......................................................
+  	    Initiative CSS code for any standard theme     
+  ......................................................
+*/
+/*
+	FONTS IMPORT
+  ................*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*:focus{
+	outline:none !important;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height:18px;
+	font-weight: 400;
+	margin: auto !important;
+	overflow-x: hidden;
+	color: #1a1a1a;
+	-webkit-font-smoothing: antialiased;
+	width:100%;
+	background-color:#F6F6F6;
+}
+
+img{
+	max-width:100%;
+	border:none;
+	height:auto;
+}
+
+.transition{
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+button,
+a,
+i{
+	text-decoration:none !important;
+    -webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+	cursor: pointer;
+}
+button:hover,
+a:hover,
+i:hover{
+	text-decoration:none !important;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+	cursor: pointer;
+}
+a:focus{
+	outline:none !important;
+}
+a:active{
+	text-decoration:none !important;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+select:focus{
+	outline:none !important;
+}
+
+ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+p{
+    margin-top:0px!important;
+    margin-bottom:0px!important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0px!important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+..................................
+   GLOBAL STYLING HERE
+..................................
+*/
+.inline-list {display: inline;}
+.inline-list p,
+.inline-list li{ display: inline-block; }
+
+.pull-left{float: left}
+.pull-right{ float: right; }
+
+.display-table{display: table;height: 100%;width: 100%;}
+.display-table-cell{display: table-cell;vertical-align: middle;}
+
+.padding-less{padding: 0px!important;}
+.margin-less{margin: 0px!important;}
+
+.common-btn{
+    background: rgba(8,197,82,1);
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 32px;
+    border-radius: 4px;
+    font-size: 13px; 
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -ms-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;  
+    cursor: pointer;
+}
+.common-btn:focus,
+.common-btn:hover{
+    background: #00A735;
+    box-shadow: none;
+    color: #000;
+}
+.common-btn i{
+	margin-left: 10px;
+}
+.under-btn {
+	position: absolute;
+	bottom: -60px;
+	right: 0px;
+}
+
+.common-input select,
+.common-input input{
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border:1px solid #dddddd;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -ms-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;  
+}
+.common-input textarea:focus,
+.common-input select:focus,
+.common-input input:focus{
+    border:1px solid #08C552;
+    box-shadow: none;
+}
+.common-input textarea{
+    width: 100%;
+    min-height: 160px;
+    border-radius: 4px;
+    border:1px solid #dddddd;
+    margin-bottom: 10px;
+    padding: 8px 12px;  
+}
+.common-input label{
+    color: #777777;
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: block;
+}
+.common-input label span{
+    color: red;
+}
+.half-input{
+    width: 49%;
+    float: left;
+    overflow: hidden;
+}
+.input-margin{
+    margin-right: 2%;
+}
+.devider {
+	display: block;
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px dashed #08C552;
+	margin: 30px 0px;
+}
+.form-heading {
+	margin-bottom: 14px;
+}
+.form-heading .step-title{
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	color: #000000;
+	font-weight: 600;
+}
+.note {
+	font-style: italic;
+	font-size: 12px;
+	padding-top: 16px;
+}
+
+
+/*********************************************************************************/
+/*********************************************************************************/
+.head-section{
+	background: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 40vh;
+	position: relative;
+	color: #ffffff;
+}
+.head-section:before{
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	content: '';
+	display: block;
+}
+.head-section .main-title {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.nav-tabs {
+	display: flex;
+	border: none;
+}
+.nav-tabs .nav-item {
+	margin-bottom: -1px;
+	flex: auto;
+	text-align: center;
+}
+
+.checkout-menu {
+	padding: 20px 0px;
+	background: #ffffff;
+	box-shadow: 0px 1px 4px #ddd;
+}
+.nav-tabs .link span {
+	background: #08C552;
+	color: #ffffff;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 6px;
+	border: 1px solid #08C552;
+}
+
+.nav-tabs .link{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #777777;
+	position: relative;
+}
+.nav-tabs .link:hover,
+.nav-tabs .link.active {
+	color: #08C552;
+}
+.nav-tabs .link.active span{
+	background: #ffffff;
+	color: #08C552;
+	box-shadow: 1px 1px 7px #ddd;
+}
+
+.tab-content {
+	margin-top: 30px;
+	background: #fff;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 9%;
+	border-radius: 8px;
+}
+
+.thead{
+	background: #F6F6F6;	
+}
+.table tr td{
+	padding: 24px 12px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #444444;
+}
+.table tr td input{
+	padding: 8px 10px;
+	width: 80px;
+}
+.table tr .title{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.table tr .total-title{
+	color: #000000;
+	font-weight: 600;
+}
+.table tr .OrdId span{
+	border: 2px solid #444;
+	padding: 2px 6px;
+	border-radius: 4px;
+}
+
+/*
+==================================
+   FORM SECTION STYLING HERE
+==================================
+*/
+#form-section {
+	padding: 0px;
+}
+.head-nav li a{
+	color: #f1f1f1;
+}
+.head-nav li a::after {
+	content: '/';
+	display: block;
+	display: inline-block;
+	padding: 0px 6px;
+	color: #08C552;
+}
+.head-nav .last-step a:after{
+	display: none;
+}
+.head-nav li a:active,
+.head-nav li a:focus,
+.head-nav li a:hover{
+	color: #08C552;
+}
+
+.shipping-method table tr:hover{
+	cursor: pointer;
+	background: #F6F6F6;
+}
+.shipping-method table tr.selected {
+  background: #F6F6F6;
+}
+
+/*
+================================================================
+                RESPONSIVE STYLING HERE
+================================================================
+*/
+
+
+@media (max-width: 575px) {
+
+.head-section .main-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+.nav-tabs .link {
+	font-size: 12px;
+}
+.nav-tabs .link span {
+	display: block;
+	margin: 0 auto;
+}
+.nav-tabs .nav-item {
+	flex: 1;
+}
+.checkout-menu .col-12{
+	padding: 0px;
+}
+.table tr td {
+	font-size: 12px;
+	padding: 18px 10px;
+}
+.table tr td input {
+	padding: 6px 8px;
+}
+.form-heading .step-title {
+	font-size: 18px;
+}
+
+
+.common-input select, .common-input input {
+	padding: 4px 8px;
+}
+.common-input label {
+	font-size: 12px;
+}
+.form-group {
+	margin-bottom: 0.2rem;
+}
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+.head-section .main-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+.nav-tabs .link {
+	font-size: 12px;
+}
+.nav-tabs .link span {
+	display: block;
+	margin: 0 auto;
+}
+.nav-tabs .nav-item {
+	flex: 1;
+}
+.checkout-menu .col-12{
+	padding: 0px;
+}
+.table tr td {
+	font-size: 12px;
+	padding: 18px 10px;
+}
+.table tr td input {
+	padding: 6px 8px;
+}
+.form-heading .step-title {
+	font-size: 18px;
+}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+
+
+
+@media (min-width: 1200px) { 
+
+
+
+}

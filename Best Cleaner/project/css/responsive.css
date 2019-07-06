@@ -1,0 +1,74 @@
+
+
+/*large desktop 2*/
+@media only screen and (min-width: 1400px) {
+	
+
+
+}
+
+
+
+@media only screen and (min-width: 992px){
+	h1 {
+	  font-size: 2.6rem;
+	  line-height: 3.5rem;
+	}
+	.paragraph h3 {
+	  font-size: 1.4rem;
+	  line-height: 1.7em;
+	  margin: 0;
+	}
+}
+/* Tablet Layout: 768px. iPads & other tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+/* Mobile Layout: 320px. iPhone, iPod Touches, most modern devices*/
+@media only screen and (max-width: 767px) {
+
+	h1 {
+	  font-size: 1.8rem;
+	  line-height: 2.5rem;
+	}
+	.gap-maintain{
+		text-align:center;
+		margin-top: 35px;
+	}
+	.gap-maintain-left{
+		text-align:center;
+		margin-top: 35px;
+	}
+	.mockup1{
+		margin:50px 0px;
+	}
+	.paragraph h3 {
+	  font-size: 1.4rem;
+	  line-height: 1.7em;
+	  margin: 0;
+	}
+	.single_service {
+	  margin: 0 auto;
+	  text-align: center;
+	  width: 80%;
+	}
+	
+}
+/* Wide Mobile Layout: 480px. iPhone, iPod Touches (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.paragraph h3 {
+	  font-size: 1.4rem;
+	  line-height: 1.7em;
+	  margin: 0;
+	}
+	.single_service {
+	  margin: 0 auto;
+	  text-align: center;
+	  width: 80%;
+	}
+}
+/*large desktop 1*/
+@media only screen and (min-width: 1200px) {
+
+}

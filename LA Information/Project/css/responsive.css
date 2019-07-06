@@ -1,0 +1,183 @@
+/*
+================================================================
+
+                   RESPONSIVE STYLING HERE
+
+================================================================
+*/
+
+
+@media (max-width: 575px) {
+
+.hide-sm{display: none;}
+
+.sidenav .main-lsit .sub-list {left: 0;position: relative;}
+.sidenav .main-lsit {margin-top: 42px;}
+.sidenav .closebtn {top: 12px;}
+#header .side-navbar .sidenav ul li a {padding: 14px 22px;}
+#header .side-navbar ul li a span{display: none;}
+
+#header .sticky + .logo-top {padding-top: 52px!important;}
+#header .logo-bar {margin:0px;}
+#header .navbar-toggler {border: 1px solid #0D3749;position: absolute;right: 0px;top: -30px; display: none;}
+.navbar-toggler {border: 1px solid #0D3749;position: absolute;right: 10px;top: -28px; display: none;}
+#header .bottom-bar ul li a {padding: 4px 2px;}
+.logo-top .left-side{width: 68%;float: left;}
+.logo-top .right-side{width: 32%;float: left;}
+#header .logo-top ul .border-right { border-right: 0px solid #000 !important; }
+
+#header .bottom-bar {display: none;}
+
+#mian-section .tagLine p {padding: 10px 0px;}
+#mian-section .tagLine p span {width: 21%;padding-top: 20px;font-size: 12px}
+#mian-section .tagLine p a {margin-left: 22%;font-size: 12px;}
+
+
+.small-title {font-size: 18px;line-height: 22px;}
+.mid-title {font-size: 22px;line-height: 24px;}
+.mid-title2 {font-size: 26px;line-height: 28px;}
+
+.opinion .single-opinion img {width: 60%;}
+.single-category{padding: 15px;}
+
+.single-category nav {width: 100%;text-align: center;padding-top: 15px;}
+.single-category .section-logo a span {font-size: 28px;}
+.single-category .post-fullwide .content {width: 100%;height: 54%;}
+
+#leidoNvisto .laido-post {width: 100%;}
+
+#vanitatis .post-fullwideSqur .content {display: none;}
+.vanitatis-color-section .section-menu{display: none;}
+#footer .footer {text-align: center;}
+
+.sidenav {overflow-y: scroll;}
+
+#carouselExampleControls .carousel-inner .carousel-item img {
+	height: 60vh;
+}
+#sliderPost .carousel-control-prev i, #sliderPost .carousel-control-next i {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+}
+#footer .footer-top .col-md-1{
+	float: left;
+	width: 50%;
+}
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+.hide-sm{display: none;}
+
+#header .side-navbar ul li a {padding: 19px 5px;font-size: 12px;}
+#header .side-navbar .sidenav li a {padding: 16px 28px;}
+#header .side-navbar ul li a .fa-bars {font-size: 18px;top: 19px;left: 25px;}
+#header .right-side .sign-up button {font-size: 12px;padding: 6px 12px;}
+#header .right-side .social-link a {padding: 18px 5px;font-size: 17px;}
+
+#header .logo-top ul li {padding: 2px 4px;font-size: 11px;}
+#header .logo-cont{border-bottom: 1px solid #dddddd;}
+#header .bottom-bar {display: none;}
+.right-side {text-align: center;}
+#header .logo-bar .logo img {width: 70%;}
+
+
+#header .logo-bar {margin: 10px 0px 0px;}
+#header .navbar-toggler {border: 1px solid #0D3749;position: absolute;right: 0px;top: -40px;display: none;}
+.navbar-toggler {border: 1px solid #0D3749;position: absolute;right: 10px;top: -28px;display: none;}
+#header .bottom-bar ul li a {padding: 4px 2px;}
+
+#mian-section .tagLine p span {width: 14%;padding-top: 24px;}
+#mian-section .tagLine p a {margin-left: 15%;}
+
+
+
+
+.small-title {font-size: 18px;line-height: 22px;}
+.mid-title {font-size: 22px;line-height: 24px;}
+.mid-title2 {font-size: 26px;line-height: 28px;}
+
+
+.opinion .single-opinion img {width: 60%;}
+.single-category{padding: 15px}
+
+.single-category nav {width: 100%;text-align: center;padding-top: 15px;}
+.single-category .section-logo a span {font-size: 28px;}
+.single-category .post-fullwide .content {width: 100%;height: 54%;}
+
+#leidoNvisto .laido-post {width: 100%;}
+
+#vanitatis .post-fullwideSqur .content {display: none;}
+.vanitatis-color-section .section-menu{display: none;}
+#footer .footer {text-align: center;}
+
+
+/*#header .sticky .head-logo{
+	display: none;
+}*/
+ 
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.hide-sm{display: none;}
+
+#header .side-navbar ul li a {padding: 18px 16px;}
+#header .right-side .sign-up button {padding: 6px 26px;}
+#header .logo-top ul li {padding: 6px 9px;}
+#header .logo-bar {margin: 10px 0px 0px;}
+#header .logo-bar .logo img {width: 40%;}
+#header .navbar-toggler {border: 1px solid #0D3749;position: absolute;right: 0px;top: -35px;display: none;}
+
+#mian-section .tagLine p span {width: 14%;padding-top: 28px;}
+#mian-section .tagLine p a {margin-left: 15%;}
+
+
+
+.small-title {font-size: 18px;line-height: 22px;}
+.mid-title {font-size: 22px;line-height: 24px;}
+.mid-title2 {font-size: 26px;line-height: 28px;}
+
+.opinion {padding: 8px;}
+.opinion .cmnt, .opinion .name {font-size: 11px;}
+.opinion .desc {font-size: 14px;}
+.Confidente {padding: 8px;margin-bottom: 10px;}
+.Confidente p{font-size: 12px;}
+
+#footer .col-md-1 {-webkit-box-flex: 0;-ms-flex: 0 0 13.333%;flex: 0 0 13.333%;max-width: 13.333%;width: 13.333%}
+.mid-advertise2 {display: none;}
+#vanitatis{margin-top: 0px;}
+
+
+/*#header .sticky .head-logo{
+	display: none;
+}*/
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#header .menu-bar .main-menu ul li a {padding: 0px 6px;}
+
+
+}
+
+
+
+@media (min-width: 1200px) { 
+
+
+
+}

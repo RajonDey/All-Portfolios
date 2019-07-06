@@ -1,0 +1,617 @@
+
+/*
+==================================
+    Add-Facility-Page STYLING HERE
+==================================
+*/
+#facility-page{
+	padding: 30px;
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+#facility-page .left-side{
+	background-color: #E8EBF2;
+	min-height: 80vh; 
+	width: 18%;
+}
+#facility-page .left-side .logo {
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+
+#facility-page .left-side .logo img {
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	border: 5px solid #CBD3D3;
+	border-radius: 50%;
+}
+#facility-page .left-side .logo a {
+	position: absolute;
+	color: #333;
+	text-decoration: underline !important;
+	z-index: 999;
+	font-size: 12px;
+	font-weight: 600;
+	left: 34%;
+	bottom: 22%;
+}
+
+#facility-page .left-side .profile-completition{
+	padding: 0px 20px;	
+}
+#facility-page .left-side .profile-completition .progress {
+	height: 0.6rem;	
+	background-color: #fff;
+	margin-top: 10px;
+}
+#facility-page .left-side .profile-completition .progress .progress-bar{
+	background-color: #8CCA11;	
+}
+#facility-page .left-side .activities-date {
+	padding: 30px 20px;
+}
+#facility-page .left-side .activities-date i{
+	font-size: 12px;
+	display: block;
+	line-height: 22px;
+	color: #777;
+}
+
+#facility-page .left-side .page-nav ul {
+	border-bottom: none;
+	width: 120%;
+}
+#facility-page .left-side .page-nav ul li {
+	border-left: 2px solid transparent;
+	width: 100%;
+	display: block;
+}
+#facility-page .left-side .page-nav ul li a {
+	color: #000;
+	padding: 14px 20px;
+	display: block;
+	border-radius: 0px!important;
+}
+#facility-page .left-side .page-nav ul li:focus,
+#facility-page .left-side .page-nav ul li:hover{
+	background-color: #fff;
+	border-left: 2px solid #0095FC;
+	color: #0095FC;
+}
+#facility-page .left-side .page-nav ul li a:hover{
+	color: #0095FB;
+}
+
+/*
+----- Basic Info Sub Page ----------
+*/
+.sub-pages{
+	width: 82%;	
+}
+#facility-page .tab-content > .active {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+.sub-pages .main-side {
+	background: #fff;
+	padding: 20px;
+	width: 60%;
+	margin: 0% 2%;
+}
+.sub-pages .main-side .desc-input,
+.sub-pages .main-side .name-input{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.sub-pages .main-side .img-input{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.sub-pages .main-side .img-input .images,
+.sub-pages .main-side .name-input{
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+.sub-pages .main-side .img-input .images{
+	margin: 10px 0px;
+}
+.sub-pages .main-side .img-input a {
+	color: #666666;
+}
+.sub-pages .main-side .img-input .single-img {
+	position: relative;
+	width: 24%;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+}
+.sub-pages .main-side .img-input .single-img img{
+	width: 100%;
+	height: auto;
+}
+.sub-pages .main-side .img-input .single-img input[type="checkbox"] {
+	position: absolute;
+}
+.sub-pages .main-side .name-input div{
+	width: 100%;
+}
+.sub-pages .main-side div label{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #606060;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 600;
+}
+.sub-pages .main-side div input[type="text"]{
+	display: block;
+	width: 98%;
+	padding: 10px 12px;
+	border:1px solid #ddd;	
+}
+.sub-pages .main-side .arabic-input {
+	text-align: right;
+}
+.sub-pages .main-side .name-input .arabic-input input[type="text"]{
+	margin-left: 2%;
+}
+.sub-pages .main-side div textarea{
+	width: 100%;
+	padding: 10px 12px;
+	min-height: 16vh;
+	border:1px solid #ddd;
+}
+.sub-pages .main-side .button-section .left-button{
+	width: 70%;
+	float: left;
+}
+.sub-pages .main-side .button-section .right-button{
+	text-align: right;
+}
+
+.sub-pages .right-side{
+	width: 38%;
+}
+.sub-pages .right-side .fees-box {
+	background: #fff;
+	padding: 20px;	
+	margin-bottom: 30px;
+}
+.sub-pages .right-side .fees-box .single-fee span,
+.sub-pages .right-side .fees-box .single-fee {
+	display:-webkit-flex;
+	display:-webkit-box;
+	display:-moz-flex;
+	display:-moz-box;
+	display:-ms-flexbox;	
+	display: flex;
+	margin-bottom: 10px;
+}
+.sub-pages .right-side .fees-box .single-fee label {
+	margin-bottom: 0px;
+	width: 150px;
+	font-size: 12px;
+}
+.sub-pages .right-side .fees-box .single-fee span select {
+	padding: 4px;
+}
+.sub-pages .right-side .fees-box .single-fee span input {
+	padding: 4px;
+	background-color: #F9F9F9;
+	border: 1px solid #ddd;
+	width: 70%;
+}
+.sub-pages .right-side .admin-box{
+	background: #fff;
+	padding: 20px;	
+}
+.sub-pages .right-side .admin-box .name-input,
+.sub-pages .right-side .admin-box .position-input {
+	margin-bottom: 20px;
+}
+.sub-pages .right-side .admin-box div label{
+	display: block;
+	margin-bottom: 8px;
+	color: #606060;
+	font-weight: 600;
+}
+.sub-pages .right-side .admin-box .name-input input,
+.sub-pages .right-side .admin-box .position-input input{
+	width: 100%;
+	padding: 8px 12px;
+	background-color: #F9F9F9;
+	border:1px solid #ddd;
+}
+.sub-pages .right-side .admin-box .contact-input {
+	clear: both;
+	overflow: hidden;
+}
+.sub-pages .right-side .admin-box .contact-input span {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+	width: 60%;
+	float: left;
+}
+.sub-pages .right-side .admin-box .contact-input span input {
+	width: 75%;
+	padding: 8px;
+}
+.sub-pages .right-side .admin-box .contact-input .color-btn {
+	min-width: 38%!important;
+	margin-left: 2%;
+	font-size: 12px;
+}
+.sub-pages .right-side .admin-box .upload-input{
+	margin-top: 30px;
+}
+.sub-pages .right-side .admin-box .upload-input{
+	margin-bottom: 20px;
+}
+.sub-pages .right-side .admin-box .box-footer{
+	font-size: 12px;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	padding: 10px 0px;
+}
+.sub-pages .right-side .admin-box .box-footer i{
+	color: #91CC1D;
+}
+/*
+----- Specialities SubPage ----------
+*/
+#Specialities .specialities-list .single-specialist {
+	width: 18%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	float: left;
+	min-height: 140px;
+	padding: 10px 4px;
+	text-align: center;
+	margin: 1%;
+	padding-top: 20px;
+}
+#Specialities .specialities-list .active{
+	background-color: #0196FD;
+}
+#Specialities .specialities-list .active p{
+	color: #fff!important;	
+}
+#Specialities .specialities-list .single-specialist img {
+	width: 75%;
+	margin-bottom: 12px;
+	height: 60px;
+}
+#Specialities .specialities-list .single-specialist p {
+	font-size: 12px;
+	color: #999;
+	font-weight: 600;
+}
+#Specialities .your-specialist .single-specialist .doctor-list {
+	overflow: hidden;
+	clear: both;
+}
+#Specialities .your-specialist .single-specialist .doctor-list .single-doctor {
+	width: 48%;
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 4px;
+	float: left;
+	margin: 1%;
+	min-height: 146px;
+}
+#Specialities .your-specialist .single-specialist .doctor-list .single-doctor img {
+	width: 80%;
+	margin-bottom: 10px;
+	border: 3px solid #ddd;
+	border-radius: 50%;
+}
+#Specialities .your-specialist .single-specialist .doctor-list .single-doctor p {
+	font-weight: 600;
+}
+/*
+----- Insurance SubPage ----------
+*/
+#Insurance .seleted-insurance .single-insurance {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 30%;
+	float: left;
+	margin: 1.4%;
+}
+#Insurance .seleted-insurance .single-insurance .insurance-title {
+	padding: 6px 10px;
+	border-bottom: 1px solid #ddd;
+}
+#Insurance .seleted-insurance .single-insurance .insurance-title i {
+	font-size: 12px;
+	float: right;
+	padding-top: 2px;
+	color: #ff7878;
+}
+#Insurance .seleted-insurance .single-insurance .insurance-list {
+	padding: 6px 10px;
+}
+#Insurance .seleted-insurance .single-insurance .insurance-list li {
+	list-style: none;
+	padding: 4px;
+}
+#Insurance .seleted-insurance .single-insurance .insurance-list li img {
+	margin-right: 1px;
+}
+#Insurance .seleted-insurance .single-insurance .insurance-list button {
+	background: #F4F5F9;
+	border: 1px solid #ddd;
+	width: 100%;
+	padding: 6px;
+	margin-top: 6px;
+	color: #666;
+	cursor: pointer;
+}
+#Insurance .your-insurance .insurance-list a {
+	width: 46%;
+	display: block;
+	float: left;
+	color: #606060;
+	padding: 8px 5px;
+	border-bottom: 1px solid #ddd;
+	margin: 0% 2%;
+}
+#Insurance .your-insurance .insurance-list a i {
+	color: #00F08B;
+	margin-right: 4px;
+}
+/*
+----- Amenities SubPage ----------
+*/
+#Amenities .main-side{
+	width: 100%;
+	min-height: 100vh;
+}
+/*
+----- Location SubPage ----------
+*/
+#Location .main-side{
+	width: 100%;
+	min-height: 100vh;
+}
+#Location .top-location .single-method{
+	width: 32%;
+	margin-right: 1%;
+	float: left;
+}
+#Location .top-location .single-method label{
+	font-size: 12px;
+}
+#Location .top-location .single-method form {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+#Location .top-location .single-method form select {
+	font-size: 12px;
+	width: 28%;
+}
+#Location .top-location .single-method form input {
+	width: 50%;
+	padding: 4px;
+	font-size: 12px;
+	background-color: #F9F9F9;
+}
+#Location .top-location .single-method form input[type="email"]{
+	width: 100%;
+	border:1px solid #ddd;
+	border-radius: 4px;
+}
+#Location .location-details .map iframe{
+	margin: 20px 0px;
+}
+#Location .location-details .single-location {
+	width: 32%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 20px;
+}
+#Location .location-details .single-location label {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+#Location .location-details .single-location input {
+	background: #F9F9F9;
+	padding: 6px;
+}
+.location-list .single-method {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+	margin: 14px 0px;
+}
+.location-list .single-method label {
+	font-size: 11px;
+	margin-bottom: 0px;
+	line-height: 12px;
+	width: 40%;
+}
+.location-list .single-method form {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+	width: 60%;
+}
+.location-list .single-method form select {
+	font-size: 12px;
+	width: 30%;
+}
+.location-list .single-method form input {
+	width: 60%;
+	padding: 4px;
+	font-size: 12px;
+	background-color: #F9F9F9;
+	border: 1px solid #ddd;
+}
+.location-list .single-method input{
+	width: 60%;
+	background-color: #F9F9F9;
+	border: 1px solid #ddd;
+	padding: 4px;
+	border-radius: 4px;
+}
+/*
+----- Timing SubPage ----------
+*/
+#Timing .main-side{
+	width: 100%;
+	min-height: 100vh;
+}
+#Timing .all-days {
+	margin: 10px 0px;
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+#Timing .all-days .color-button{
+	background-color: #50B5FB;
+	color: #fff;
+}
+#Timing .all-days .border-button{
+	border:1px solid #F49AC0;
+}
+#Timing .all-days button {
+	-webkit-flex:1;
+    -webkit-box-flex:1;
+    -moz-flex:1;
+    -moz-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+	margin: 0px 1px;
+	padding: 8px;
+	font-weight: normal;
+	border:none;
+	border-radius: 4px;
+}
+#Timing .hours .hours-limit {
+	width: 24%;
+	float: left;
+	margin-right: 10px;
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+	padding-top: 25px;
+}
+#Timing .hours .hours-limit button {
+	padding: 8px 6px;
+	border: none;
+	font-size: 12px;
+	-webkit-flex:1;
+    -webkit-box-flex:1;
+    -moz-flex:1;
+    -moz-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+}
+#Timing .hours .hours-limit .left-button {
+	border-radius: 4px 0px 0px 4px;
+}
+#Timing .hours .hours-limit .right-button {
+	background: #50B5FB;
+	color: #fff;
+	border-radius: 0px 4px 4px 0px;
+}
+#Timing .hours .from-to {
+	width: 50%;
+	float: left;
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+	margin-top: 10px;
+}
+#Timing .hours .from-to .from label, #Timing .hours .from-to .to label {
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+#Timing .hours .from-to .from input, #Timing .hours .from-to .to input {
+	padding: 4px;
+	border-radius: 4px;
+}
+#Timing .hours .from-to button{
+	padding: 4px;
+	border-radius: 4px;
+	background-color: #0196FD;
+	border:none;
+	color: #fff;
+	min-height: 28px;
+	margin-top: 16px;
+	padding: 0px 10px;
+}
+#Timing .hours .split-shift {
+	width: 22%;
+	float: right;
+	margin-left: 8px;
+}
+#Timing .hours .split-shift label {
+	font-size: 11px;
+	color: #999;
+	line-height: 12px;
+	margin-bottom: 2px;
+}
+#Timing .hours .split-shift button {
+	min-width: 100px;
+}
+#Timing .opening-hour img{
+	width: 100%;
+}
+#Timing .swich-branches button {
+	margin-bottom: 6px;
+	box-shadow: 1px 1px 2px #ddd;
+	padding: 10px;
+	border-radius: 4px;
+	width: 100%;
+	text-align: left;
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #606060;
+	position: relative;
+}
+#Timing .swich-branches button i{
+	position: absolute;
+	right: 12px;
+	top: 8px;
+	color: #0196FD;	
+}

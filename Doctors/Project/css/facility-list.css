@@ -1,0 +1,169 @@
+
+
+#facility-list-page{
+	padding: 30px;
+}
+#facility-list-page #myTab{
+	width: 100%;
+	position: relative;
+}
+#facility-list-page .page-format{
+	position: absolute;
+	line-height: 60px;
+}
+#facility-list-page .page-format a i{
+	color: #999;
+	font-size: 18px;
+}
+#facility-list-page .page-format a i:hover{
+	color: #0196FD;
+}
+#facility-list-page .page-grid{
+	right: 28px;
+}
+#facility-list-page .page-list{
+	right: 0;
+}
+
+#facility-list-page #myTab li{
+
+}
+#facility-list-page .nav-tabs .nav-link{
+	color: #999;
+	padding: 20px;
+	position: relative;
+	text-transform: uppercase;
+}
+#facility-list-page .nav-tabs .nav-link::after {
+	display: block;
+	content: '';
+	border: 1px solid #C5C5C6;
+	border-width: 0 2px 2px 0px;
+	display: inline-block;
+	padding: 5px;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	position: absolute;
+	bottom: -6px;
+	left: 44%;
+	display: none;
+}
+#facility-list-page .nav-tabs .nav-item.show .nav-link, #facility-list-page .nav-tabs .nav-link.active {
+	color: #0196FD;
+	background-color: transparent;
+	border-color: transparent;
+}
+#facility-list-page .nav-tabs .nav-item.show .nav-link::after, #facility-list-page .nav-tabs .nav-link.active::after{
+	display: block;
+}
+#facility-list-page .nav-tabs .nav-link span{
+	background-color: #C5C5C6;
+	padding: 1px 8px;
+	border-radius: 10px;
+	color: #fff;
+}
+#facility-list-page .nav-tabs .nav-item.show .nav-link span, #facility-list-page .nav-tabs .nav-link.active span{
+	background-color: #0196FD;
+}
+
+#facility-list-page #myTabContent{
+	width: 100%;
+	padding: 30px 0px;
+}
+#facility-list-page #myTabContent .table-responsive{
+	background-color: #fff;
+	box-shadow: -1px 4px 4px #ddd;
+	position: relative;
+}
+#facility-list-page #myTabContent .table-responsive .settings {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	text-align: right;
+	color: #999;
+}
+#facility-list-page #myTabContent .table-responsive .settings a{
+	color: #999;
+	font-size: 16px;
+}
+#facility-list-page #myTabContent .table-responsive .settings #settingsDIV{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	min-width: 160px;
+	z-index: 99999999;
+	background: #fff;
+}
+#facility-list-page #myTabContent .table-responsive .settings #settingsDIV a{
+	display: block;
+	padding: 6px;
+}
+#facility-list-page #myTabContent .table-responsive .settings #settingsDIV a:hover{
+	color: #606060;
+}
+#facility-list-page #myTabContent table{}
+#facility-list-page #myTabContent table thead{}
+#facility-list-page #myTabContent table thead tr{
+	border:none;
+}
+#facility-list-page #myTabContent table thead tr th{
+	border-top: none;
+	border-bottom: none;
+	line-height: 34px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.table-striped tbody tr:nth-of-type(2n+1) {
+	background-color: #F3F6FB;
+}
+#facility-list-page #myTabContent table tbody{}
+#facility-list-page #myTabContent table tbody tr{}
+#facility-list-page #myTabContent table tbody tr td {
+	border-top: none;
+	line-height: 34px;
+	font-size: 12px;
+}
+#facility-list-page #myTabContent table tbody tr .addres{
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+#facility-list-page #myTabContent table tbody tr .addres img {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+}
+#facility-list-page #myTabContent table tbody tr .addres p{
+	text-transform: uppercase;
+}
+#facility-list-page #myTabContent table tbody tr td button {
+	border: 1px solid #0196FD;
+	color: #0196FD;
+	padding: 6px 16px;
+	background: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+#facility-list-page #myTabContent table tbody tr td button:hover{
+	background-color: #0196FD;
+	color: #fff;
+}
+#facility-list-page #myTabContent table tbody tr td .signal {
+	display: inline-block;
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 4px;
+}
+#facility-list-page #myTabContent table tbody tr td .green{	background-color: #00C112; }
+#facility-list-page #myTabContent table tbody tr td .red{	background-color: #F73D5A; }
+#facility-list-page #myTabContent table tbody tr td .yeolow{	background-color: #FCA901; }
+
+#facility-list-page #myTabContent table tbody tr .view-red i{ color: #F73D5A;margin-left: 6px; }
+#facility-list-page #myTabContent table tbody tr .view-green i{ color: #00C112;margin-left: 6px; }

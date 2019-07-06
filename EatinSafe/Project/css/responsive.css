@@ -1,0 +1,138 @@
+
+
+/*large desktop 2*/
+@media only screen and (min-width: 1400px) {
+
+.video_area .video {
+  height: 424px;
+}
+
+}
+
+
+@media only screen and (min-width: 992px){
+
+.video_area .video {
+  height: 348px;
+}
+
+}
+
+/* Tablet Layout: 768px. iPads & other tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.banner_area h1 {
+  font-size: 2em;
+}
+.banner_area em {
+  font-size: 1em;
+}
+.contact {
+  margin-top: 50px;
+}
+
+.video_area .video {
+  height: 406px;
+}
+
+
+}
+
+/* Mobile Layout: 320px. iPhone, iPod Touches, most modern devices*/
+@media only screen and (max-width: 767px) {
+.logo img {
+  padding: 10px 0;
+  margin: 0 auto;
+  display: block;
+}
+.header_contact p {
+  text-align: center;
+  line-height:28px;
+}
+.banner_area h1 {
+  font-size: 1.7em;
+}
+.banner_area em {
+  font-size: 1em;
+}
+.color-overlay {
+  padding: 3.5rem 0 4.5rem;
+}
+.contact {
+  margin-top: 50px;
+}
+.footer_top_area {
+  text-align: center;
+}
+.footer_top_area hr {
+  margin: 10px auto;
+}
+.footer_top_area h3 {
+  margin-top: 30px;
+}
+.footer_area {
+  text-align: center;
+}
+.social_icon {
+  margin: 20px;
+  text-align: center;
+}
+.social_icon i{
+	margin: 0 5px;
+}
+
+.video_area .video {
+  height:250px;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. iPhone, iPod Touches (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.logo img {
+  padding: 10px 0;
+  margin: 0 auto;
+  display: block;
+}
+.header_contact p {
+  text-align: center;
+  line-height:28px;
+}
+.banner_area em {
+  font-size: 1em;
+}
+.color-overlay {
+  padding: 3.5rem 0 4.5rem;
+}
+.contact {
+  margin-top: 50px;
+}
+.footer_top_area {
+  text-align: center;
+}
+.footer_top_area hr {
+  margin: 10px auto;
+}
+.footer_top_area h3 {
+  margin-top: 30px;
+}
+.footer_area {
+  text-align: center;
+}
+.social_icon {
+  margin: 20px;
+  text-align: center;
+}
+.video_area .video {
+  height:250px;
+}
+
+}
+
+/*large desktop 1*/
+@media only screen and (min-width: 1200px) {
+
+.video_area .video {
+  height: 424px;
+}
+
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Checkout Forms</title>
+    <meta name="description" content="Responsive website">
+    <meta name="keywords" content="responsive website">
+    <meta name="author" content="site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--end font awesome-->
+
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<section class="head-section display-table">
+		<div class="container display-table-cell">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					
+					<h2 class="main-title">CHECKOUT</h2>
+					<ul class="head-nav inline-list" id="myTab" role="tablist">
+						<li><a href="#"><i class="fas fa-home"></i></a></li>
+						<li><a href="#">Cart Item</a></li>
+						<li><a href="#">Shipping Details</a></li>
+						<li><a href="#">Payment</a></li>
+						<li class="last-step"><a href="#">Confirmation</a></li>
+					</ul>
+
+				</div>
+			</div><!-- End Row -->
+		</div><!-- End container -->
+	</section><!-- End head-section -->
+
+
+	<section id="form-section">
+		<div class="checkout-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="link active" id="crtItm-tab" data-toggle="tab" href="#crtItm" role="tab" aria-controls="crtItm" aria-selected="true"><span>1</span> Cart Item</a>
+							</li>
+							<li class="nav-item">
+								<a class="link" id="shippingInfo-tab" data-toggle="tab" href="#shippingInfo" role="tab" aria-controls="shippingInfo" aria-selected="false"><span>2</span> Shipping Details</a>
+							</li>
+							<li class="nav-item">
+								<a class="link" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="payment" aria-selected="false"><span>3</span> Payment</a>
+							</li>
+							<li class="nav-item">
+								<a class="link" id="confirmation-tab" data-toggle="tab" href="#confirmation" role="tab" aria-controls="confirmation" aria-selected="false"><span>4</span> Confirmation</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- End Row -->
+			</div><!-- End container -->
+		</div><!-- End Checkout-menu -->
+		<div class="container checkout-contents">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="tab-content" id="myTabContent">
+						<div class="first-step tab-pane fade show active" id="crtItm" role="tabpanel" aria-labelledby="crtItm-tab">
+							<div class="form-heading">
+								<h3 class="step-title">Order Items</h3>
+							</div>
+							<form class="cart-item">
+								<div class="table-responsive">
+									<table class="table">
+										<tbody>
+											<tr class="thead">
+												<th>Order Id</th>
+												<th>Product Name</th>
+												<th>Quantity</th>
+												<th class="text-right">Price</th>
+											</tr>
+											<tr>
+												<td class="OrdId"><span>Order#1</span></td>
+												<td class="title">Product Name</td>
+												<td><input type="Number" name=""></td>
+												<td class="big text-right">$15.00</td>
+											</tr>
+											<tr>
+												<td class="OrdId"><span>Order#2</span></td>
+												<td class="title">Product Name</td>
+												<td><input type="Number" name=""></td>
+												<td class="big text-right">$55.00</td>
+											</tr>
+											<tr>
+												<td class="OrdId"><span>Order#3</span></td>
+												<td class="title">Product Name</td>
+												<td><input type="Number" name=""></td>
+												<td class="big text-right">$19.00</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+							</form><!-- End cart-item -->
+							<button class="common-btn under-btn btn">Continue <i class="fas fa-arrow-right"></i></button>
+						</div><!-- End first-step Tab -->
+						<div class="second-step tab-pane fade" id="shippingInfo" role="tabpanel" aria-labelledby="shippingInfo-tab">
+							<div class="form-heading">
+								<h3 class="step-title">Shipping Information</h3>
+							</div>
+							<form class="shipping-info">
+								<div class="common-input form-group half-input input-margin">
+									<label>First Name <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group half-input">
+									<label>Last Name <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group half-input input-margin">
+									<label>Email Address <span>*</span></label>
+									<input type="email" class="form-control" id="">
+								</div>
+								<div class="common-input form-group half-input">
+									<label>Telephone <span>*</span></label>
+									<input type="tel" class="form-control" id="">
+								</div>
+								<div class="common-input form-group">
+									<label>Company </label>
+									<input type="text" class="form-control" id="">
+								</div>
+								
+								<div class="common-input form-group">
+									<label>Address </label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group half-input input-margin">
+									<label>City <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group half-input">
+									<label>Zip/Postal Code <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group">
+									<label>State/Province <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group">
+									<label>Country <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+							</form><!-- End shipping-info -->
+
+							<div class="devider"></div>
+
+							<div class="form-heading">
+								<h3 class="step-title">Chose Your Shipping Method</h3>
+							</div>
+							<form class="shipping-method">
+								<div class="table-responsive">
+									<table class="table">
+										<tbody class="product-options">
+											<tr class="thead">
+												<th></th>
+												<th>Method</th>
+												<th>Deliver Time</th>
+												<th>Cost</th>
+											</tr>
+											<tr>
+												<td><input type="radio" name="product_variation" checked=""></td>
+												<td>USPSFirstClass</td>
+												<td>2 to 3 days</td>
+												<td class="big">Free</td>
+											</tr>
+											<tr class="selected">
+												<td><input type="radio" name="product_variation" checked="checked"></td>
+												<td>USPSPriority</td>
+												<td>1 to 3 days</td>
+												<td class="big">7</td>
+											</tr>
+											<tr>
+												<td><input type="radio" name="product_variation" checked=""></td>
+												<td>FedEx2Day</td>
+												<td>1 to 2 days</td>
+												<td class="big">22</td>
+											</tr>
+											<tr>
+												<td><input type="radio" name="product_variation" checked=""></td>
+												<td>FedExPriorityOvernight</td>
+												<td>1 to 1 days</td>
+												<td class="big">33</td>
+											</tr>
+											<tr>
+												<td><input type="radio" name="product_variation" checked=""></td>
+												<td>USPSFirstClass</td>
+												<td>2 to 3 days</td>
+												<td class="big">Free</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+
+								<p class="note">Fields marked Continue with (*) are required</p>
+								<button class="common-btn under-btn btn">Continue  <i class="fas fa-arrow-right"></i></button>
+							</form><!-- End shipping-method -->
+						</div><!-- End second-step Tab -->
+						<div class="third-step tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+							<div class="form-heading">
+								<h3 class="step-title">Payment Information</h3>
+							</div>
+							<form class="payment-info">
+								<div class="common-input form-group">
+									<label>Name on Card <span>*</span></label>
+									<input type="text" class="form-control" id="">
+								</div>
+								<div class="common-input form-group">
+									<label>Credit Card Type <span>*</span></label>
+									<select class="custom-select" id="">
+										<option>-Please Select-</option>
+									</select>
+								</div>
+								<div class="common-input form-group">
+									<label>Credit Card Number <span>*</span></label>
+									<input type="num" class="form-control" id="">
+								</div>
+								<div class="common-input form-group">
+									<label>Credit Expiration month <span>*</span></label>
+									<select class="custom-select" id="">
+										<option>Month</option>
+									</select>
+								</div>
+								<div class="common-input form-group">
+									<label>Credit Expiration Year <span>*</span></label>
+									<select class="custom-select" id="">
+										<option>Year</option>
+									</select>
+								</div>
+								<div class="common-input form-group">
+									<label>CNV <span>*</span></label>
+									<input type="num" class="form-control" id="">
+								</div>
+								<p class="note">Fields marked Continue with (*) are required</p>
+								<button class="common-btn under-btn btn">Continue <i class="fas fa-arrow-right"></i></button>
+							</form><!-- End shipping-info -->
+						</div><!-- End third-step Tab -->
+						<div class="fourth-step tab-pane fade" id="confirmation" role="tabpanel" aria-labelledby="confirmation-tab">
+							<div class="form-heading">
+								<h3 class="step-title">Order Review</h3>
+							</div>
+							<form class="order-review">
+								<div class="table-responsive">
+									<table class="table">
+										<tbody>
+											<tr class="thead">
+												<th>Product Title</th>
+												<th>Qty</th>
+												<th>Unit Price</th>
+												<th>Total</th>
+											</tr>
+											<tr>
+												<td class="title">PRODUCT NAME 4 5 6 ASD</td>
+												<td><input type="Number" name=""></td>
+												<td>$25.00</td>
+												<td>$25.00</td>
+											</tr>
+											<tr>
+												<td class="title">Subtotal</td>
+												<td><input type="Number" name=""></td>
+												<td></td>
+												<td>$25.00</td>
+											</tr>
+											<tr>
+												<td class="title">Shipping & Handling (Free)</td>
+												<td><input type="Number" name=""></td>
+												<td></td>
+												<td>0</td>
+											</tr>
+											<tr>
+												<td class="title">Tax</td>
+												<td><input type="Number" name=""></td>
+												<td></td>
+												<td>$2.18</td>
+											</tr>
+											<tr>
+												<td class="total-title">Total</td>
+												<td><input type="Number" name=""></td>
+												<td></td>
+												<td class="total-title">$27.18</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+								<button class="common-btn under-btn btn">Continue <i class="fas fa-arrow-right"></i></button>
+							</form><!-- End shipping-method -->
+						</div><!-- End fourth-step Tab -->
+					</div><!-- End All Tabs -->
+				</div>
+			</div><!-- End row -->
+		</div><!-- End checkout-content container -->
+	</section><!-- End Form Section -->
+
+
+	<!-- script here -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')
+    </script>
+	<script class="cssdeck" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+	    $('.product-options tr').click(function() {
+	     $(this).children('td').children('input').prop('checked', true);
+	      
+	      $('.product-options tr').removeClass('selected');
+	      $(this).toggleClass('selected');
+
+	    });
+    </script>
+
+</body>
+
+</html>

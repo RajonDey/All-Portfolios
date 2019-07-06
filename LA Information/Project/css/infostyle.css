@@ -1,0 +1,163 @@
+/* CSS Document */
+#header .top-bar{
+	background: #003f8d ;
+	min-height: 50px;
+}
+#header .side-navbar ul li a:hover{
+	background: #8893aa;
+	color: #000000;
+}
+#header .logo-top{ background-color:#003f8d}
+#header .logo-top{
+	padding: 1px 0;
+	border: none;
+}
+.head-logo {width: 325px; margin-top:0}
+.logo a h1 { text-align:center;color:#fff;font-size:3.2vw}
+.fa-user-circle {margin-right: 10px;}
+#header .logo-bar .logo img {width: 75vw;}
+#header .menu-bar .main-menu ul li a {font-size:16px}
+.top-advertise{
+	border:1px solid #CCC; margin:auto
+}
+/*títulos-hasta 50 caracteres*/
+.big-title {font-family: 'Noticia Text', serif;font-size: 78px;line-height: 1.1;}
+.big-title-lead{font-family: 'Rubik', sans-serif;font-size: 21px;line-height:1.3 }
+
+.mid-title {font-family: 'Noticia Text', serif;font-size: 39px;line-height: 1.1;}
+.mid-title-lead{font-family: 'Rubik', sans-serif;font-size: 16px;line-height:1.5 }
+
+.small-title {font-family: 'Noticia Text', serif;font-size: 24px;line-height: 1.1;}
+.small-title-lead{font-family: 'Rubik', sans-serif;font-size: 16px;line-height:1.5 }
+
+
+.bocadillo1{ font-size:16px;font-weight:100; line-height:normal} 
+#opinion .small-title{
+	font-size: 24px;
+	line-height: 32px;
+	color: #333333;
+	letter-spacing: -1px;
+	cursor: pointer;
+}
+#opinion .small-title:hover{
+	color: #777777;
+	cursor: pointer;
+}
+#opinion .body-section{
+	
+}
+#opinion .post-border {
+	border-top: 2px solid #B4B0AA;
+	padding: 10px 20px;
+}
+#opinion .post-border .title {
+	text-align: center;
+	margin-top: ;
+	position: relative;
+	top: -25px;
+	background: #FF7F00;
+	color:#fff;
+	/* z-index: 9999; */
+	width: 40%;
+	margin: 0 auto!important;
+	padding:5px;
+
+}
+#opinion p{top: -35px;}
+/*
+================================================================
+                   RESPONSIVE STYLING HERE
+================================================================
+*/
+@media (max-width: 575px) {
+	.no320 {display: none !important}
+	#header .right-side {display:none}
+	#header .side-navbar ul li a i {margin-right: 0px;}
+	#header .side-navbar .navbar-nav li a {padding: 18px 8px;font-size: 18px;}
+	#mySidenav .main-lsit .sub-list li a{padding: 16px 28px;}
+	.head-logo {width: 190px;right: 0;left: 30%;top: 8px;}
+	/*títulos-hasta 50 caracteres*/
+	.big-title {font-size: 32px}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	.big-title-lead{font-size: 16px}
+	.mid-title {font-size: 24px;}
+.mid-title-lead{font-size: 14px;}
+
+
+}
+
+@media (min-width: 480px)  and (max-width: 1199px) {.head-logo {width: 265px; margin-top:0;top: 0;}}
+@media  (max-width: 767px) {
+#header .logo-bar .logo img {width: 80vw}
+	.logo a h1 {font-size:4vw}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+	.fa-user-circle {margin-right: 0;}
+	#header .side-navbar ul li a span{display:none}
+	#header .right-side .sign-up button span{display:none}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+#header .right-side .sign-up button {padding: 6px 6px;}
+#header .right-side .sign-up .reg-btn {display: none;}
+#header .side-navbar .navbar-nav li a {padding: 16px 12px;font-size: 22px;}
+#header .side-navbar ul li a i {margin-right: 0px;}
+#mySidenav .main-lsit .sub-list li a{padding: 16px 28px;}
+/*títulos-hasta 50 caracteres*/
+.big-title {font-size: 38px}
+.big-title-lead{font-size: 18px}
+.mid-title {font-size: 24px;}
+.mid-title-lead{font-size: 16px;}
+}
+
+@media (min-width: 768px)  and (max-width: 991px) {
+#header .right-side .sign-up button {padding: 6px 9px;}
+#header .side-navbar .navbar-nav li a {padding: 16px 16px;font-size: 22px;}
+#header .side-navbar ul li a i {margin-right: 0px;}
+/*títulos-hasta 50 caracteres*/
+.big-title {font-size: 52px}
+.big-title-lead{font-size: 19px}
+.mid-title {font-size: 28px;}
+.mid-title-lead{font-size: 16px;}
+}
+
+@media (max-width: 991px) {#header .logo-bar{margin:10px 0px}}
+@media (min-width: 992px) and (max-width: 1199px) {
+#header .right-side .sign-up button {padding: 6px 17px;}
+#header .menu-bar .main-menu ul li a {font-size:14px}
+/*títulos-hasta 50 caracteres*/
+.big-title {font-size: 68px}
+.big-title-lead{font-size: 20px;}
+.mid-title {font-size: 34px;}
+.mid-title-lead{font-size: 16px;}
+.small-title {font-size: 24px}
+.small-title-lead{font-size: 16px }
+}
+@media (min-width: 1200px) { }
+/*
+==================================
+    Sidenav STYLING HERE
+==================================
+*/
+#mySidenav {
+    background-color: #406FAA;
+}
+#mySidenav .main-lsit li a{
+	color: #ffffff;
+	padding: 19px 28px;
+}
+#mySidenav .main-lsit li a:hover {
+	background: #30537F!important;
+	color: #fff!important;
+}
+#mySidenav .main-lsit .sub-list {
+	background: #30537F;
+}
+#mySidenav .main-lsit .sub-list li a{
+	color: #ffffff;
+	display: block;
+}
+#mySidenav .main-lsit li:hover .sub-list li:hover{
+	background: #000!important;
+	color: #fff!important;
+}

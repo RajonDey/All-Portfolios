@@ -1,0 +1,36 @@
+
+/*
+----- Basic Info Sub Page ----------
+*/
+
+.sub-pages .main-side .desc-input,
+.sub-pages .main-side .name-input{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.sub-pages .main-side .img-input .images,
+.sub-pages .main-side .name-input{
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.sub-pages .main-side .name-input div{
+	width: 100%;
+}
+.sub-pages .main-side .name-input .arabic-input input[type="text"]{
+	margin-left: 2%;
+}
+.sub-pages .main-side .box .select-input select {
+	width: 16%;
+}
+.sub-pages .main-side .box .select-input input {
+	width: 25%;
+}
+.language-button button{
+	min-width: 24%;
+	margin-bottom: 6px;
+}

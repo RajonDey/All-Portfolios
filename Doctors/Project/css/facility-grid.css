@@ -1,0 +1,138 @@
+
+
+#facility-grid-page{
+	padding: 30px;
+}
+#facility-grid-page #myTab{
+	width: 100%;
+	position: relative;
+}
+#facility-grid-page #myTab li{
+
+}
+#facility-grid-page .page-format{
+	position: absolute;
+	line-height: 60px;
+}
+#facility-grid-page .page-format a i{
+	color: #999;
+	font-size: 18px;
+}
+#facility-grid-page .page-format a i:hover{
+	color: #0196FD;
+}
+#facility-grid-page .page-grid{
+	right: 28px;
+}
+#facility-grid-page .page-list{
+	right: 0;
+}
+#facility-grid-page .nav-tabs .nav-link{
+	color: #999;
+	padding: 20px;
+	position: relative;
+	text-transform: uppercase;
+}
+#facility-grid-page .nav-tabs .nav-link::after {
+	display: block;
+	content: '';
+	border: 1px solid #C5C5C6;
+	border-width: 0 2px 2px 0px;
+	display: inline-block;
+	padding: 5px;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	position: absolute;
+	bottom: -6px;
+	left: 44%;
+	display: none;
+}
+#facility-grid-page .nav-tabs .nav-item.show .nav-link, #facility-grid-page .nav-tabs .nav-link.active {
+	color: #0196FD;
+	background-color: transparent;
+	border-color: transparent;
+}
+#facility-grid-page .nav-tabs .nav-item.show .nav-link::after, #facility-grid-page .nav-tabs .nav-link.active::after{
+	display: block;
+}
+#facility-grid-page .nav-tabs .nav-link span{
+	background-color: #C5C5C6;
+	padding: 1px 8px;
+	border-radius: 10px;
+	color: #fff;
+}
+#facility-grid-page .nav-tabs .nav-item.show .nav-link span, #facility-grid-page .nav-tabs .nav-link.active span{
+	background-color: #0196FD;
+}
+#facility-grid-page #myTabContent{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+
+
+.all-medicals {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+.all-medicals .single-medical {
+	flex: 1;
+	background: #fff;
+	margin: 0px 6px;
+	box-shadow: 1px 3px 4px #ddd;
+	padding: 10px;
+	text-align: center;
+	min-height: 160px;
+}
+.all-medicals .single-medical img {
+	width: 70%;
+	margin: 0 auto;
+	border: 4px solid #ddd;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	min-height: 120px;
+}
+.all-medicals .single-medical p {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.all-medicals .single-branch {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 6px 4px; 
+	text-align: center;
+	margin-top: 10px;
+}
+.all-medicals .single-branch .branch-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #606060;
+	margin-bottom: 0px;
+}
+.all-medicals .single-branch .branch-location {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+.all-medicals .single-branch button {
+	background: #fff;
+	border: 1px solid #0196FD;
+	color: #0196FD;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	margin: 6px 2px 0px;
+	font-size: 12px;
+	min-width: 60px;
+}
+.all-medicals .single-branch button:hover{
+	background-color: #0196FD;
+	color: #fff;
+}

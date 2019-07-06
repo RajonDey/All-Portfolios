@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Title</title>
+    <meta name="description" content="Responsive website">
+    <meta name="keywords" content="responsive website">
+    <meta name="author" content="site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<!-- Fonts -->
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--end font awesome-->
+	
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	
+	<section id="main-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-1 side-nav">
+					<ul>
+						<li><a href=""><img src="img/doctor-logo.jpg"></a></li>
+						<li class="active"><a href=""><i class="fab fa-buromobelexperte"></i> Dashboard</a></li>
+						<li><a href="facility.html"><i class="far fa-hospital"></i> Facilities</a></li>
+						<li><a href=""><i class="fas fa-user-md"></i> Doctors</a></li>
+					</ul>
+				</div><!-- End col-2 (side-nav) -->
+				<div class="col-11 main-body">
+					<header>
+						<div class="header-left">
+							<ul>
+								<li><p class="page-name">Facilities</p></li>
+								<li><a href="add-facility.html"><button class="header-button">Add Facility</button></a></li>
+							</ul>
+						</div>
+						<div class="header-right">
+							<ul>
+								<li class="user-notification">
+									<a href="">
+										<i class="fas fa-bell"></i>
+										<div class="notify">4</div>
+										<i class="fas fa-caret-down"></i>
+									</a>
+								</li>
+								<li class="user-profile">
+									<a href="">
+										<p class="user-name">Kristy Jeferson <i class="fas fa-caret-down"></i></p>
+										<p class="user-designation">Manager</p>
+									</a>
+								</li>
+								<li class="user-picture">
+									<a href="">
+										<img src="img/user-icon.jpg" alt="IMG">
+									</a>
+								</li>								
+							</ul>
+						</div>
+					</header><!-- End Header -->
+
+					<section id="dashboard-page">
+						
+						<div class="all-barChart">
+							<div class="single-chart view-chart">
+								<div class="chart-head">
+									<div class="pull-left">
+										<i class="fas fa-eye"></i> <big>Views</big> In this month
+									</div>
+									<div class="pull-right">
+										1K <i class="far fa-chart-bar"></i>
+									</div>
+								</div>
+								<canvas id="myChart"></canvas>
+							</div>
+							<div class="single-chart shares-chart">
+								<div class="chart-head">
+									<div class="pull-left">
+										<i class="far fa-share-square"></i> <big>Shares</big> In this month
+									</div>
+									<div class="pull-right">
+										1K <i class="far fa-chart-bar"></i>
+									</div>
+								</div>
+								<canvas id="myChart2"></canvas>
+							</div>
+							<div class="single-chart favorite-chart">
+								<div class="chart-head">
+									<div class="pull-left">
+										<i class="far fa-heart"></i> <big>Favorite</big> In this month
+									</div>
+									<div class="pull-right">
+										1K <i class="far fa-chart-bar"></i>
+									</div>
+								</div>
+								<canvas id="myChart3"></canvas>
+							</div>
+							<div class="single-chart call-chart">
+								<div class="chart-head">
+									<div class="pull-left">
+										<i class="fas fa-mobile-alt"></i> <big>Call</big> In this month
+									</div>
+									<div class="pull-right">
+										1K <i class="far fa-chart-bar"></i>
+									</div>
+								</div>
+								<canvas id="myChart4"></canvas>
+							</div>
+						</div>
+
+						<div class="line-Chart">
+							<div class="chart-left col-md-3">
+								<div class="head">Notification</div>
+								<div class="bdoy-mid">
+									<li>Your facility is varified! <span>2m ago</span></li>
+									<li>Your got request to edit... <span>2 Feb 2018</span></li>
+								</div>
+								<div class="bdoy-bottom">
+									<li>Claim Request Rejected <span>2 Feb 2018</span></li>
+									<li>New Speciality Approved <span>2 Feb 2018</span></li>
+									<li>Claim Request Rejected <span>2 Feb 2018</span></li>
+								</div>
+							</div>
+							<div class="chart col-md-9">
+								<p>Statistics</p>
+								<canvas id="myChart5"></canvas>
+							</div>
+						</div>
+
+					</section><!-- End facility-page -->
+				</div><!-- End col-10 (main-body) -->
+
+			</div><!-- End row -->
+		</div><!-- End container -->
+	</section><!-- End main-wrapper section -->
+
+	
+
+
+    <!-- script here -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')
+    </script>
+	<script class="cssdeck" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/plugin.js"></script> 
+    <script src="js/main.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

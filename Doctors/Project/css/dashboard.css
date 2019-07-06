@@ -1,0 +1,123 @@
+
+#dashboard-page{
+	padding: 30px;
+}
+#dashboard-page .all-barChart {
+	 display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    flex-direction:row;
+	overflow: hidden;
+	clear: both;
+}
+#dashboard-page .all-barChart .single-chart {
+	-webkit-flex: 1;
+	-webkit-box-flex: 1;
+	-moz-flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	float: left;
+	background-color: #fff;
+	box-shadow: 1px 3px 5px #ddd;
+	margin-left: 10px;
+}
+#dashboard-page .all-barChart .single-chart canvas{
+	width: 100%!important;
+}
+
+#dashboard-page .all-barChart .single-chart .chart-head {
+	color: #fff;
+	padding: 16px 10px;
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+	position: relative;
+}
+#dashboard-page .all-barChart .view-chart .chart-head{
+	background: #0196FD;
+}
+#dashboard-page .all-barChart .shares-chart .chart-head{
+	background: #132F3B;
+}
+#dashboard-page .all-barChart .favorite-chart .chart-head{
+	background: #F53A59;
+}
+#dashboard-page .all-barChart .call-chart .chart-head{
+	background: #32DAC3;	
+}
+
+#dashboard-page .all-barChart .single-chart .chart-head .pull-left i {
+	font-size: 1.3em;
+	margin-right: 4px;
+}
+#dashboard-page .all-barChart .single-chart .chart-head .pull-left big{
+	text-transform: uppercase;
+}
+#dashboard-page .all-barChart .single-chart .chart-head .pull-right {
+	position: absolute;
+	right: 10px;
+}
+#dashboard-page .all-barChart .single-chart .chart-head .pull-right {
+	font-weight: bold;
+	font-size: 1.6em;
+}
+#dashboard-page .all-barChart .single-chart .chart-head .pull-right i{
+	font-weight: normal;
+	color: #f2f2f2;
+}
+
+
+
+#dashboard-page .line-Chart{
+	margin-top: 30px;
+	display: flex;
+}
+#dashboard-page .line-Chart .chart-left {
+	width: 30%;
+	float: left;
+	background: #fff;
+	padding: 0px;
+	margin-right: 10px;
+	box-shadow: 1px 3px 5px #ddd;
+}
+#dashboard-page .line-Chart .chart-left .head {
+	background: #132F3B;
+	padding: 16px 10px;
+	color: #f2f2f2;
+	text-transform: uppercase;
+}
+#dashboard-page .line-Chart .chart-left li {
+	list-style: none;
+	padding: 16px 0px;
+	border-bottom: 1px solid #ddd;
+}
+#dashboard-page .line-Chart .chart-left li span{
+	float: right;
+}
+#dashboard-page .line-Chart .chart-left .bdoy-mid {
+	background: #F3F6FB;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+#dashboard-page .line-Chart .chart-left .bdoy-bottom {
+	padding: 10px;
+	background: #fff;
+	padding-top: 0px;	
+}
+#dashboard-page .line-Chart .chart{
+	width: 70%;
+	float: right;
+	background-color: #fff;
+	box-shadow: 1px 3px 5px #ddd;
+}
+#dashboard-page .line-Chart .chart p{
+	text-transform: uppercase;
+	padding: 10px;
+}

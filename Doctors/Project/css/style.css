@@ -1,0 +1,750 @@
+/*
+Theme Name: New theme
+Author: rajjohin
+Author URI: http://www.themezwarrior.com
+*/
+
+
+
+/*
+  ......................................................
+  	    Initiative CSS code for any standard theme     
+  ......................................................
+*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+* {
+box-sizing: border-box;
+}
+
+*:focus{
+	outline:none !important;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8750em;
+	line-height:1.250em;
+	margin: auto !important;
+	overflow-x: hidden;
+	color: #676767;
+	-webkit-font-smoothing: antialiased;
+	width:100%;
+	background-color:#fdfdfd;
+	
+}
+
+img{
+	max-width:100%;
+	border:none;
+	height:auto;
+}
+
+.transition{
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+button,
+a,
+i{
+	text-decoration:none !important;
+    -webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+button:hover,
+a:hover,
+i:hover{
+	text-decoration:none !important;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+	cursor: pointer;
+}
+a:focus{
+	outline:none !important;
+}
+a:active{
+	text-decoration:none !important;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+select:focus{
+	outline:none !important;
+}
+ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+p{
+    margin:0px!important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0px!important;
+}
+
+
+/*
+  .................................................
+  	    Global CSS code for any theme     
+  .................................................
+*/
+.marginTop30{
+	margin-top: 30px;
+	cursor: pointer;
+}
+.marginBottom30{
+	margin-bottom: 30px;
+}
+.comment-box {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 60px;
+}
+.save-btn {
+	position: relative;
+	left: 21%;
+	margin-bottom: 60px;
+}
+.main-side{
+	min-height: 102.8vh;
+}
+.normal-btn {
+	min-width: 140px;
+	padding: 10px;
+	border:1px solid #ddd;
+	background-color: #fff;
+	color: #404040;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: 600;
+}
+.normal-btn:hover{
+	background-color: #0095FC;	
+	color: #fff;
+	border:1px solid #0095FC;
+}
+.color-btn{
+	min-width: 140px;
+	padding: 10px;
+	border:none;
+	background-color: #0095FC;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: 600;	
+}
+.color-btn:hover{
+	background-color: #0074DB;
+}
+.upload-btn{
+	min-width: 150px;
+	padding: 10px;
+	border:none;
+	background-color: #fff;
+	color: #0095FC;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: 600;
+	border:1px solid #0095FC;	
+}
+.upload-btn:hover{
+	background-color: #0095FC;
+	color: #fff;
+}
+.tag-button {
+	min-width: 31%;
+	padding: 10px 6px;
+	background-color: #fff;
+	color: #777;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: 600;
+	border: 1px solid #ddd;
+	font-size: 13px;
+	text-align: left;
+	margin-bottom: 4px;
+}
+.tag-btn-gray{
+	background-color: #D9D9D9;
+	border:none;
+}
+.tag-button i {
+	float: right;
+	font-size: 10px;
+	color: #DA6A69;
+	padding-top: 2px;
+}
+.plus-btn {
+	text-align: left;
+	padding: 6px;
+	border-radius: 4px;
+	position: relative;
+}
+.plus-btn i{
+	color: #2D95FF;
+	position: absolute;
+	right: -6px;
+}
+.section {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 20px;
+}
+.section-title {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #606060;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 600;
+}
+.sub-title{
+	font-size: 12px;
+	margin-bottom: 20px!important;
+}
+.search-input,
+.gray-box {
+	background-color: #F9F9F9;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 6px;
+	border-radius: 4px;
+}
+.search-input {
+	width: 60%;
+}
+.right-side-box{
+	background-color: #fff;
+	padding: 20px;
+}
+.card {
+	margin-bottom: 6px;
+	box-shadow: 1px 1px 2px #ddd;
+}
+.card .card-header {
+	padding: 0px;
+	margin-bottom: 0;
+	background-color: #fff;
+	border-bottom: transparent;
+}
+.card .card-header button {
+	color: #606060;
+	font-size: 14px;
+	width: 100%;
+	text-align: left;
+}
+.card .card-header button .card-sideicon{
+	position: absolute;
+	right: 12px;
+	top: 8px;
+	color: #0196FD;
+}
+.box-title{
+	margin-bottom: 20px;
+}
+.box-title strong{
+	text-transform: uppercase;	
+}
+.box-title p{
+	font-size: 12px;	
+}
+.flex{
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+/*********************************************************************************/
+/*
+==================================
+    SIDE-NAV STYLING HERE
+==================================
+*/
+.side-nav{
+	padding: 0px;
+	background-color: #11313E;
+	color: #fff;
+	min-height: 100vh;
+}
+.side-nav ul{
+	text-align: center;
+}
+.side-nav ul li {
+	padding: 30px 0px;
+	border-bottom: 1px solid #777;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	min-height: 100px;
+	border-left: 3px solid transparent;
+}
+.side-nav ul .active,
+.side-nav ul li:focus,
+.side-nav ul li:hover{
+	border-left: 3px solid #0096FD;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.side-nav ul .active i,
+.side-nav ul li:focus,
+.side-nav ul li:hover i{
+	color: #0096FD;
+}
+.side-nav ul .active a,
+.side-nav ul li:focus,
+.side-nav ul li:hover a{
+	color: #fff;
+}
+.side-nav ul li a{
+	color: #777777;
+	text-transform: uppercase;
+}
+.side-nav ul li a img {
+	display: block;
+	font-size: 2em;
+	margin: 6px auto;
+	width: 40%;
+}
+.side-nav ul li a i{
+	display: block;
+	font-size: 2em;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.main-body{
+	background-color: #F2F3F7;
+	padding: 0px;
+}
+
+/*
+==================================
+    HEADER STYLING HERE
+==================================
+*/
+.main-body header {
+	background-color: #fff;
+	padding: 25px;
+	clear: both;
+	overflow: hidden;
+	box-shadow: 0px 3px 2px #E9E9E9;
+	min-height: 100px;
+}
+.main-body header .header-left {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.main-body header .header-left ul{
+	display: inline-block;
+}
+.main-body header .header-left ul li {
+	display: inline-block;
+	margin: 0px 30px;
+	line-height: 48px;
+}
+.main-body header .header-left ul li button {
+	background-color: #0096FD;
+	color: #fff;
+	padding: 10px 32px;
+	border-radius: 18px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.main-body header .header-right {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.main-body header .header-right ul{
+	display: inline-block;
+}
+.main-body header .header-right ul li{
+	display: inline-block;
+	margin:0px 15px;
+}
+.main-body header .header-right ul li a{
+	color: #97A9B2;	
+}
+.main-body header .header-right ul li .fa-caret-down{
+	font-size: 12px;
+	color: #97A9B2;
+}
+.main-body header .header-right .user-notification {
+	position: relative;
+}
+.main-body header .header-right .user-notification .notify {
+	position: absolute;
+	background: #F43D59;
+	color: #fff;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 1px;
+	top: -14px;
+	right: -4px;
+}
+.main-body header .header-right .user-profile{
+	text-align: left;
+}
+.main-body header .header-right .user-profile .user-name{
+	font-size: 14px;
+	color: #7b7b7b;
+	text-transform: uppercase;;
+}
+.main-body header .header-right .user-profile .user-designation{
+	font-size: 12px;
+	color: #7b7b7b;	
+}
+.main-body header .header-right .user-picture {
+	text-align: left;
+}
+.main-body header .header-right .user-picture img{
+	width: 58px;
+	height: 58px;
+	border: 2px solid #0096FD;
+	border-radius: 50%;
+	margin-top: -12px;
+}
+
+/*
+==================================
+    Add-Doctor-Page STYLING HERE
+==================================
+*/
+#page-body{
+	padding: 30px;
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+#page-body .left-side{
+	background-color: #E8EBF2;
+	min-height: 80vh; 
+	width: 18%;
+}
+#page-body .left-side .logo {
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+#page-body .left-side .name{
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;	
+	font-weight: 600;
+}
+#page-body .left-side .logo img {
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	border: 5px solid #CBD3D3;
+	border-radius: 50%;
+}
+#page-body .left-side .logo a {
+	position: absolute;
+	color: #333;
+	text-decoration: underline !important;
+	z-index: 999;
+	font-size: 12px;
+	font-weight: 600;
+	left: 34%;
+	bottom: 22%;
+}
+
+#page-body .left-side .profile-completition{
+	padding: 0px 20px;	
+}
+#page-body .left-side .profile-completition .progress {
+	height: 0.6rem;	
+	background-color: #fff;
+	margin-top: 10px;
+}
+#page-body .left-side .profile-completition .progress .progress-bar{
+	background-color: #8CCA11;	
+}
+#page-body .left-side .activities-date {
+	padding: 30px 20px;
+}
+#page-body .left-side .activities-date i{
+	font-size: 12px;
+	display: block;
+	line-height: 22px;
+	color: #777;
+}
+
+#page-body .left-side .page-nav ul {
+	border-bottom: none;
+	width: 120%;
+}
+#page-body .left-side .page-nav ul li {
+	border-left: 2px solid transparent;
+	width: 100%;
+	display: block;
+}
+#page-body .left-side .page-nav ul li a {
+	color: #000;
+	padding: 14px 20px;
+	display: block;
+	border-radius: 0px!important;
+}
+#page-body .left-side .page-nav ul li:focus,
+#page-body .left-side .page-nav ul li:hover{
+	background-color: #fff;
+	border-left: 2px solid #0095FC;
+	color: #0095FC;
+}
+#page-body .left-side .page-nav ul li a:hover{
+	color: #0095FB;
+}
+#page-body .tab-content > .active {
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+
+/*
+----- Basic CSS of Sub Pages ----------
+*/
+.sub-pages{
+	width: 82%;	
+}
+.sub-pages .main-side {
+	background: #fff;
+	padding: 20px;
+	width: 60%;
+	margin: 0% 2%;
+}
+.sub-pages .main-side .box{
+	margin-bottom: 20px;
+	overflow: hidden;
+	clear: both;
+}
+.sub-pages .main-side .box label{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #606060;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 600;
+}
+.sub-pages .main-side .box input{
+	display: block;
+	width: 98%;
+	padding: 10px 12px;
+	border:1px solid #ddd;	
+	margin-bottom: 6px;
+	border-radius: 4px;
+}
+.sub-pages .main-side div .select-input{
+	display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+	display: flex;
+}
+.sub-pages .main-side .box .select-input select {
+	border-right: none;
+	border-radius: 4px 0px 0px 4px;
+}
+.sub-pages .main-side .box .select-input input {
+	border-radius: 0px 4px 4px 0px;
+}
+
+.sub-pages .main-side div .input-half{
+	width: 48%;
+	float: left;
+}
+.sub-pages .main-side div .marg-right{
+	margin-right: 2%;
+}
+.sub-pages .main-side .arabic-input {
+	text-align: right;
+}
+.sub-pages .main-side div textarea{
+	width: 100%;
+	padding: 10px 12px;
+	min-height: 16vh;
+	border:1px solid #ddd;
+}
+.sub-pages .main-side .box .tagPic-button {
+	height: 60px;
+	position: relative;
+}
+.sub-pages .main-side .box .tagPic-button img {
+	float: left;
+	width: 20%;
+}
+.sub-pages .main-side .box .tagPic-button .desc {
+	padding-top: 6px;
+}
+.sub-pages .main-side .box .tagPic-button i {
+	position: absolute;
+	top: 18px;
+	right: 4px;
+}
+.sub-pages .main-side .address-box div label{
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.sub-pages .main-side .address-box div{
+	margin-bottom: 10px;
+}
+.sub-pages .main-side .box .group-button button {
+	min-width: 80px;
+	margin-bottom: 6px;
+	margin-right: 1%;
+}
+
+
+.sub-pages .right-side{
+	width: 38%;
+}
+.sub-pages .right-side .right-side-box {
+
+}
+.sub-pages .right-side .right-side-box .box {
+	background: #fff;
+	margin-bottom: 10px;
+}
+.sub-pages .right-side .box label{
+	display: block;
+	margin-bottom: 8px;
+	color: #606060;
+	font-weight: normal;
+}
+.sub-pages .right-side .box textarea,
+.sub-pages .right-side .box select,
+.sub-pages .right-side .box input{
+	width: 100%;
+	padding: 8px 12px;
+	background-color: #F9F9F9;
+	border:1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 6px;
+}
+.sub-pages .right-side .box textarea {
+	min-height: 16vh;
+}
+.sub-pages .right-side .arabic-input{
+	text-align: right;
+}
+.sub-pages .right-side .side-gray-box {
+	position: relative;
+	font-size: 12px;
+}
+.sub-pages .right-side .side-gray-box .head {
+	text-transform: uppercase;
+	font-size: 12.6px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 6px;
+}
+.sub-pages .right-side .side-gray-box .head img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 6px;
+}
+.sub-pages .right-side .side-gray-box .degree {
+	padding: 10px 0px;
+}
+.sub-pages .right-side .side-gray-box button {
+	position: absolute;
+	right: 10px;
+	border: 1px solid #ddd;
+	bottom: 10px;
+	padding: 4px 12px;
+	border:1px solid #0196FD;
+	color: #0196FD;
+	background-color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+.sub-pages .right-side .side-gray-box button:hover{
+	background-color: #0196FD;
+	color: #fff;	
+}
+.sub-pages .right-side .side-gray-box i {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	font-size: 10px;
+	color: #DA6A69;
+}
+
+
+
+
+
+
+/*
+================================================================
+
+                   RESPONSIVE STYLING HERE
+
+================================================================
+*/
+@media (max-width: 575px) { 
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+@media (min-width: 1200px) { 
+
+
+}

@@ -1,0 +1,738 @@
+/*
+Theme Name: HypoHosting theme
+Author: rajjohin
+Author URI: https://www.fiverr.com/rajjohin
+*/
+
+
+
+/*
+  ......................................................
+  	    Initiative CSS code for any standard theme     
+  ......................................................
+*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+* {
+box-sizing: border-box;
+}
+
+*:focus{
+	outline:none !important;
+}
+@font-face {
+    font-family: Sailec;
+    src: url('../font/Sailec Bold.otf');
+    src: url('../font/Sailec Medium.otf');
+    src: url('../font/SailecRegular.otf');
+}
+body{
+	font-family: 'Sailec', sans-serif;
+	font-size: 1em;
+	line-height:1.625em;
+	margin: auto !important;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	width:100%;
+	background-color:#ffffff;
+}
+
+img{
+	max-width:100%;
+	border:none;
+	height:auto;
+}
+
+.transition{
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+button,
+a,
+i{
+	text-decoration:none !important;
+    -webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+	cursor: pointer;
+}
+button:hover,
+a:hover,
+i:hover{
+	text-decoration:none !important;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+a:focus{
+	outline:none !important;
+}
+a:active{
+	text-decoration:none !important;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+select:focus{
+	outline:none !important;
+}
+
+ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+p{
+    margin:0px!important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0px!important;
+}
+.marginTop10{
+	margin-top: 10px;
+}
+.marginTop20{
+	margin-top: 10px;	
+}
+
+/*
+  .................................................
+  	    Global CSS code for any theme     
+  .................................................
+*/
+.cmn-btn{
+    background: #0363FF;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    border:none;
+    box-shadow: 1px 2px 6px #0363FF;
+    text-transform: uppercase;
+}
+.cmn-btn:hover{
+    background: #0363FF;
+}
+.white-btn{
+	background: #ffffff;
+	color: #3b4348;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    border:1px solid #3b4348;
+    text-transform: uppercase;
+}
+.white-btn:hover{
+    background: #0363FF;
+    color: #ffffff;	
+}
+.main-title{
+	color: #3b4348;
+	font-size: 3.75em;
+	line-height: 72px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.section-title-big{
+	color: #3b4348;
+	font-size: 3em;
+	line-height: 72px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.section-title{
+	color: #3b4348;
+	font-size: 2.25em;
+	line-height: 72px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.sub-section-title{
+	color: #3b4348;
+	font-size: 1.25em;
+	line-height: 32px;
+}
+section{
+	padding: 60px 0px;
+}
+.section-head{
+	margin-bottom: 50px;
+}
+.mid-margin{
+	margin:0px 20px;
+}
+
+
+/*********************************************************************************/
+/*
+==================================
+    HEADER STYLING HERE
+==================================
+*/
+#header {
+	background: #F1F6FC;
+	height: 100vh;
+}
+#header .top-bar {
+	padding: 12px 0px;
+	color: #828a91;
+	border-bottom: 1px solid #ddd;
+}
+#header .top-bar .text-left p {
+	color: #828a91;
+	font-size: 14px;
+}
+#header .top-bar .text-left p img {
+	width: 14px;
+	margin-right: 6px;
+}
+#header .top-bar .text-right nav ul{
+	display: inline-block;	
+}
+#header .top-bar .text-right nav ul li{
+	display: inline-block;
+}
+#header .top-bar .text-right nav ul li a {
+	font-size: 13px;
+	color: #828a91;
+	padding: 6px 8px;
+}
+
+#header .main-head{
+	padding: 16px 0px;
+}
+#header .main-head .main-nav nav {
+	padding: 0px;
+	float: right;
+}
+#header .main-head .main-nav nav ul li a {
+	font-size: 14px;
+	color: #3b4348;
+	padding: 4px 8px;
+}
+.banner .banner-text{
+	padding-top: 10%;
+}
+.banner .banner-text .service-list{
+	margin-top: 30px;
+}
+.banner .banner-img img {
+	width: 90%;
+	display: block;
+	float: right;
+	padding-top: 10%;
+}
+
+/*
+==================================
+    about STYLING HERE
+==================================
+*/
+#about .about-section img {
+	width: 420px;
+	display: block;
+	margin: 0 auto;
+}
+#about .about-section h4 {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 38px;
+	width: 72%;
+	display: block;
+	margin: 0 auto !important;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*
+==================================
+    host-category STYLING HERE
+==================================
+*/
+#host-category .single-cat {
+	border: 2px solid #ddd;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+#host-category .single-cat img {
+	margin: 0 auto 12px;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+#host-category .single-cat .gray-img{
+	display: block;
+}
+#host-category .single-cat .blue-img{
+	display: none;
+}
+#host-category .single-cat p {
+	color: #828a91;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 32px;
+	display: block;
+}
+#host-category .single-cat:hover{
+	border: 2px solid #0363FF;
+}
+#host-category .single-cat:hover p{
+	color: #0363FF;
+}
+#host-category .single-cat:hover .blue-img{
+	display: block;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+#host-category .single-cat:hover .gray-img{
+	display: none;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+
+/*
+==================================
+    host-plan STYLING HERE
+==================================
+*/
+#host-plan .all-plans .single-plan {
+	border: 2px solid #ddd;
+	margin-bottom: 30px;
+	display: block;
+	cursor: pointer;
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+#host-plan .all-plans .single-plan:hover{
+	border: 2px solid #0363FF;
+	box-shadow: 1px 2px 6px #0363FF;
+}
+#host-plan .all-plans .single-plan:hover .white-btn{
+	background: #0762FB;
+	color: #ffffff;
+}
+#host-plan .all-plans .single-plan .plan-head {
+	padding: 20px;
+	border-bottom: 2px solid #ddd;
+}
+#host-plan .all-plans .single-plan .plan-head .plan-title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #3b4348;
+	line-height: 32px;
+	padding-bottom: 10px;
+}
+#host-plan .all-plans .single-plan .plan-head .plan-desc#host-plan .all-plans .single-plan .plan-head .plan-desc {
+	color: #828a91;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#host-plan .all-plans .single-plan .plan-body {
+	padding: 20px;
+	border-bottom: 2px solid #ddd;
+}
+#host-plan .all-plans .single-plan .plan-body p {
+	font-size: 14px;
+	color: #3b4348;
+	line-height: 34px;
+}
+#host-plan .all-plans .single-plan .plan-body p img {
+	width: 22px;
+	margin-right: 12px;
+}
+
+#host-plan .all-plans .single-plan .plan-footer {
+	padding: 20px;
+	position: relative;
+}
+#host-plan .all-plans .single-plan .plan-footer small {
+	color: #3b4348;
+	font-size: 12px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+#host-plan .all-plans .single-plan .plan-footer p big {
+	font-size: 48px;
+	font-weight: bold;
+	position: relative;
+	top: 12px;
+}
+#host-plan .all-plans .single-plan .plan-footer button {
+	position: absolute;
+	right: 20px;
+	top: 28px;
+	box-shadow: none;
+}
+
+/*
+==================================
+    map STYLING HERE
+==================================
+*/
+#map{
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+}
+#map img{
+	height: 90vh;
+}
+#map p {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	padding: 30px 0px;
+}
+
+
+/*
+==================================
+    host-solution STYLING HERE
+==================================
+*/
+#host-solution .all-solutions .single-solu {
+	border: 2px solid #ddd;
+	padding: 20px;
+	position: relative;
+	min-height: 240px;
+	border-bottom: 2px solid #0264FD;
+	display: block;
+	cursor: pointer;
+}
+#host-solution .all-solutions .single-solu .text{
+	position: absolute;
+	bottom: 20px;
+}
+#host-solution .all-solutions .single-solu img {
+	width: 30px;
+}
+#host-solution .all-solutions .single-solu p{
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #3b4348;
+}
+#host-solution .all-solutions .single-solu p strong{
+	font-weight: bold;
+}
+
+
+/*
+==================================
+    speciality STYLING HERE
+==================================
+*/
+
+#speciality .speciality-list .left{
+	text-align: right;
+}
+#speciality .speciality-list .left .single-item{
+	min-height: 300px;
+	margin-bottom: 20px;
+}
+#speciality .speciality-list .left .single-item img{
+	width: 40px;
+}
+#speciality .speciality-list .left .single-item h4{
+	font-size: 24px;
+	font-weight: bold;	
+	display: block;
+	padding: 30px 0px;
+}
+#speciality .speciality-list .left .single-item p{
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#speciality .speciality-list .mid{}
+#speciality .speciality-list .mid img {
+	width: 80%;
+	margin: 40px auto 0px;
+	display: block;
+}
+
+#speciality .speciality-list .right{
+	text-align: left;
+}
+#speciality .speciality-list .right .single-item{
+	min-height: 300px;
+	margin-bottom: 20px;
+}
+#speciality .speciality-list .right .single-item img{
+	width: 40px;	
+}
+#speciality .speciality-list .right .single-item h4{
+	font-size: 24px;
+	font-weight: bold;	
+	display: block;
+	padding: 30px 0px;
+}
+#speciality .speciality-list .right .single-item p{
+	font-size: 16px;
+	line-height: 26px;	
+}
+
+
+/*
+==================================
+    register STYLING HERE
+==================================
+*/
+#register .contact-form{
+	overflow: hidden;
+	clear: both;
+}
+#register .contact-form form select,
+#register .contact-form form input{
+	display: inline-block;
+	width: 32%;
+	height: calc(2.25rem + 2px);
+	padding: 16px 20px;
+	line-height: 1.5;
+	color: #495057;
+	vertical-align: middle;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	float: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#register .contact-form form textarea{
+	width: 100%;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	min-height: 90px;
+	padding: 16px 20px;
+	line-height: 1.5;
+	color: #495057;
+	margin-bottom: 20px;
+}
+#register .contact-form form button{
+	margin:0 auto;
+	display: block;
+} 
+
+
+/*
+==================================
+    footer-top STYLING HERE
+==================================
+*/
+#footer-top{
+	color: #828a91;
+}
+#footer-top .brif-review img{
+	width: 200px;
+	margin-bottom: 20px;
+}
+#footer-top .brif-review p{
+	color: #828a91;
+	font-size: 16px;
+	line-height: 26px;
+	width: 70%;
+	display: block;
+}
+#footer-top .footer-list {
+	margin-bottom: 30px;
+}
+#footer-top .footer-list h4{
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: bold;
+	text-transform: uppercase;	
+	color: #333;	
+}
+#footer-top .footer-list a{
+	color: #828a91;
+	font-size: 16px;
+	line-height: 32px;	
+	display: block;
+}
+#footer-top .footer-list a:hover{
+	color: #333;
+}
+
+/*
+==================================
+    footer-top STYLING HERE
+==================================
+*/
+#footer{
+	padding: 15px 0px;
+	border-top: 2px solid #ddd;
+}
+#footer .left p{
+	color: #82898F;
+	font-size: 13px;
+}
+#footer .right{
+	text-align: right;
+}
+#footer .right a {
+	color: #82898F;
+	padding: 0px 20px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+/*
+================================================================
+
+                   RESPONSIVE STYLING HERE
+
+================================================================
+*/
+
+@media (max-width: 575px) { 
+
+	body {font-size: 14px;line-height: 1.4em;}
+	section {padding: 30px 0px;}
+	.section-head {margin-bottom: 20px;}
+	.navbar-toggler {position: absolute;right: 0;top: -38px;border: 2px solid #0363FF;}
+	.hide-sm{display: none}
+	.logo{width: 60%;float: left;}
+	#header{height: 115vh;}
+	#header .main-head .main-nav nav {float: none;}
+	.navbar-nav{margin-top: 20px;text-align: center;}
+	.navbar-nav li{border:1px solid #0363FF;}
+	.navbar-nav li:hover{background: #0363FF;}
+	.navbar-nav li:hover a{color: #ffffff!important;}
+
+	.main-title {font-size: 2em;line-height: 46px;}
+	.sub-section-title {font-size: 1em;line-height: 24px;}
+	.cmn-btn {font-size: 12px;padding: 12px 16px;}
+	.white-btn {font-size: 12px;padding: 12px 16px;}
+	.banner .banner-img img {float: none;padding-top: 0%;}
+	.section-title-big {font-size: 1.4em;line-height: 1.4em;}
+	.section-title {font-size: 1.2em;line-height: 32px;}
+	.sub-section-title {font-size: 14px;line-height: 22px;}
+	#about .about-section h4 {font-size: 14px;line-height: 18px;}
+	#host-plan .all-plans .single-plan .plan-head .plan-title {font-size: 16px;line-height: 26px;}
+	#map p {font-size: 22px;line-height: 32px;padding: 10px 0px;}
+	#host-solution .all-solutions .single-solu {min-height: 160px;}
+	#speciality .speciality-list .left {text-align: left;}
+	#speciality .speciality-list .left .single-item h4 {font-size: 16px;padding: 10px 0px;}
+	#speciality .speciality-list .left .single-item {min-height: 0;}
+	#speciality .speciality-list .right .single-item {min-height: 0!important;}
+	#speciality .speciality-list .single-item {min-height: 0;}
+	#speciality .speciality-list .mid img {margin: 10px auto;}
+	#register .contact-form form select, #register .contact-form form input {width: 100%;margin-bottom: 10px;}
+	.mid-margin {margin: 0px;}
+	#footer-top .brif-review p {font-size: 14px;line-height: 22px;}
+	#footer-top .footer-list a {font-size: 14px;line-height: 28px;}
+	#footer-top .footer-list {margin: 20px 0px;}
+	#footer .left p {font-size: 13px;text-align: center;padding-bottom: 10px;}
+	#footer .right {text-align: center;}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	body {font-size: 14px;line-height: 1.4em;}
+	section {padding: 30px 0px;}
+	.section-head {margin-bottom: 20px;}
+	.navbar-toggler {position: absolute;right: 0;top: -38px;border: 2px solid #0363FF;}
+	.hide-sm{display: none}
+	.logo{width: 60%;float: left;}
+	#header{height: 115vh;}
+	#header .main-head .main-nav nav {float: none;}
+	.navbar-nav{margin-top: 20px;text-align: center;}
+	.navbar-nav li{border:1px solid #0363FF;}
+	.navbar-nav li:hover{background: #0363FF;}
+	.navbar-nav li:hover a{color: #ffffff!important;}
+
+	.main-title {font-size: 2em;line-height: 46px;}
+	.sub-section-title {font-size: 1em;line-height: 24px;}
+	.cmn-btn {font-size: 12px;padding: 12px 16px;}
+	.white-btn {font-size: 12px;padding: 12px 16px;}
+	.banner .banner-img img {float: none;padding-top: 0%;}
+	.section-title-big {font-size: 1.4em;line-height: 1.4em;}
+	.section-title {font-size: 1.2em;line-height: 32px;}
+	.sub-section-title {font-size: 14px;line-height: 22px;}
+	#about .about-section h4 {font-size: 14px;line-height: 18px;}
+	#host-plan .all-plans .single-plan .plan-head .plan-title {font-size: 16px;line-height: 26px;}
+	#map p {font-size: 22px;line-height: 32px;padding: 10px 0px;}
+	#host-solution .all-solutions .single-solu {min-height: 160px;}
+	#speciality .speciality-list .left {text-align: left;}
+	#speciality .speciality-list .left .single-item h4 {font-size: 16px;padding: 10px 0px;}
+	#speciality .speciality-list .left .single-item {min-height: 0;}
+	#speciality .speciality-list .mid img {margin: 10px auto;}
+	#register .contact-form form select, #register .contact-form form input {width: 100%;margin-bottom: 10px;}
+	.mid-margin {margin: 0px;}
+	#footer-top .brif-review p {font-size: 14px;line-height: 22px;}
+	#footer-top .footer-list a {font-size: 14px;line-height: 28px;}
+	#footer-top .footer-list {margin: 20px 0px;}
+	#footer .left p {font-size: 13px;text-align: center;padding-bottom: 10px;}
+	#footer .right {text-align: center;}
+
+ 
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#header .top-bar .text-left p {font-size: 11px;}
+	#header .top-bar .text-left p img {width: 10px;}
+	#header .top-bar .text-right nav ul li a {font-size: 11px;padding: 2px 3px;}
+	.navbar-toggler {position: absolute;right: 0;top: 0;}
+	.logo img{width: 200px}
+	#header .main-head .main-nav nav {float: none;}
+	.navbar-nav{margin-top: 20px;text-align: center;}
+	.navbar-nav li{border:1px solid #0363FF;}
+	.navbar-nav li:hover{background: #0363FF;}
+	.navbar-nav li:hover a{color: #ffffff!important;}
+	.main-title {font-size: 3em;line-height: 56px;}
+	.section-title-big {font-size: 2em;line-height: 42px;}
+	.sub-section-title {font-size: 1em;line-height: 26px;}
+	#map p {font-size: 28px;line-height: 38px;padding: 30px 0px;}
+	#register .contact-form form select, #register .contact-form form input {width: 31.4%;}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+
+
+@media (min-width: 1200px) { ... }
